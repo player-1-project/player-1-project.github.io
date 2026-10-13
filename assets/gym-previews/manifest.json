@@ -1,0 +1,107 @@
+{
+  "revision": "577f54e1ed46cc7dd621ed3de910d3457e2c487e749f2be9600197a2fcb3d4ff",
+  "settings": {
+    "width": 320,
+    "height": 180,
+    "fps": 15,
+    "colors": 64
+  },
+  "previews": [
+    {
+      "id": "base_2d_aim",
+      "gif": "base_2d_aim.gif",
+      "source_sha256": "872c6bea581b8993ec72a874e24a4ace7505c45bb8f376ffc50ba18d79efd338",
+      "sha256": "f87497fadc9ca6bf2fc6464c6ec77a17d51bbea6a89a36fc54e84ba96cbbea6f"
+    },
+    {
+      "id": "base_2d_aim_arena",
+      "gif": "base_2d_aim_arena.gif",
+      "source_sha256": "1f3e954c0cdc224bccf37c23a19f6e7d34142b4c1080b92d47b32a2a3180d399",
+      "sha256": "59258453d26b659d1eeb98903bf1ae8129be22178471fc9beb43e04679241f92"
+    },
+    {
+      "id": "base_2d_arcade_planar",
+      "gif": "base_2d_arcade_planar.gif",
+      "source_sha256": "c8baef2422c0db82882554c6eb7382d087754e6136e9e57d58911ba775551e79",
+      "sha256": "0de639f526310ae487e79304e92094aa0d6e989b889edb13e75b0fdc109832b4"
+    },
+    {
+      "id": "base_2d_drive_lane_collect",
+      "gif": "base_2d_drive_lane_collect.gif",
+      "source_sha256": "a62cc17a375576f23d5b591f7b9645c16dbc2d50d57c8a954af0ac46732cb84e",
+      "sha256": "6d520a9c9324bb3c9c3066a18c0e8639e7dec75847e412c3dc72cbe7111128bd"
+    },
+    {
+      "id": "base_2d_drive_planar_wasd",
+      "gif": "base_2d_drive_planar_wasd.gif",
+      "source_sha256": "3cf3e467bff7defd2b21684c1e215dd1ad14110242a8acb910ec692823edcc51",
+      "sha256": "1e0e97955de0a3a1fa9d5c19a780fa86f3d9a36fe03d2e8750373629ff4ddd77"
+    },
+    {
+      "id": "base_2d_platform",
+      "gif": "base_2d_platform.gif",
+      "source_sha256": "2d5ffba4abb39f9cf75a3e251897fa7f6c062b8203d0ef6a2deb7c81c430d930",
+      "sha256": "8fd4e4f40e3e48c498feebaf43b3fae01d26b125b32ebcfbada19e5aa1d2bc22"
+    },
+    {
+      "id": "base_2d_ui_crafting",
+      "gif": "base_2d_ui_crafting.gif",
+      "source_sha256": "083c44b26b850d73aef565b6a231207b29aa019a4d193cda000137f34c29d01f",
+      "sha256": "894ad829e37e708a728262297f5c7f561eb692efcc7e9fd622acb235ee7a5b71"
+    },
+    {
+      "id": "base_3d_aim",
+      "gif": "base_3d_aim.gif",
+      "source_sha256": "371dbea4b94ef32164ade2a8eae680b54765e319601035155fd6a6184929e04f",
+      "sha256": "492b1c37345f830b6a11a08dc2b05dca401832e3b48597f18ab64abd37453a89"
+    },
+    {
+      "id": "base_3d_combat_arena",
+      "gif": "base_3d_combat_arena.gif",
+      "source_sha256": "c0687c8e0c7957fb801d7263b1194fce0eee796b35e40ae64707af70a10f70f3",
+      "sha256": "bc7e0b6e937811dd93c1b132e9bb9212105f1cc790401b727987f5af348360cf"
+    },
+    {
+      "id": "base_3d_drive",
+      "gif": "base_3d_drive.gif",
+      "source_sha256": "bd38f7264aed415b9cbe8ccaab88ca6e7df4b511d29064ac1ff29b2300b758f5",
+      "sha256": "36f3dbf37247e2d509b06c19482411342b2f4954591eaa9e382befd9acc8de73"
+    },
+    {
+      "id": "base_3d_drive_lane",
+      "gif": "base_3d_drive_lane.gif",
+      "source_sha256": "f016d2a87e984c876ba3c92482a73f2e747bdb0e9ecfaf35fd86ee8fca063305",
+      "sha256": "c6f7b58ad35abd2356526b476e67f40b73c56fe7e70b6b34dd07f1b4666c34d2"
+    },
+    {
+      "id": "base_3d_duel",
+      "gif": "base_3d_duel.gif",
+      "source_sha256": "743c95d22ec40bcca681b330d2ad0365f14ba85db1dfd06eafc106dea5dfec53",
+      "sha256": "fed529df0f5bbf97e78f64a557587f6818611c22f45a1c65c20984dff33bf706"
+    },
+    {
+      "id": "base_3d_duel_precision",
+      "gif": "base_3d_duel_precision.gif",
+      "source_sha256": "7ed2d89c672312b9b051c6508aabea5545a8fb773baa9dea15d9c5d1c4054c29",
+      "sha256": "112c24a184fdee4181873c95e0ee77f88f85cc98f0c73213bdfae7f0222cb8d1"
+    },
+    {
+      "id": "base_3d_melee_arena",
+      "gif": "base_3d_melee_arena.gif",
+      "source_sha256": "b59410b6a5d0727d28b4ef98cc12bf6fdb77292a0def97519b13939e67487d05",
+      "sha256": "b6f881ca35021d307fc0926bac8c162f2669a9f09233074c4480855d77a52bbd"
+    },
+    {
+      "id": "base_3d_movement",
+      "gif": "base_3d_movement.gif",
+      "source_sha256": "548547f162e0ed319d025c163a18d4c751ef16406e78d5b211e2baddb5be921c",
+      "sha256": "2a58033c70965dd04ce4d61019165939df37122136114af909cb28f0a64c6a03"
+    },
+    {
+      "id": "base_3d_navigate_chase",
+      "gif": "base_3d_navigate_chase.gif",
+      "source_sha256": "2aebbabf9e6eb0c5f878846379b427e4d108954dd51486a45db86c0c96642069",
+      "sha256": "fa399778f30b22454f9e7917317d9f23c56583729a17fc38593bc86ad3ce3b10"
+    }
+  ]
+}

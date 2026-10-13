@@ -1,0 +1,33 @@
+{
+  "source": "https://kenney.nl/assets/car-kit",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "file": "sedan-sports.glb",
+      "source_path": "Models/GLB format/sedan-sports.glb",
+      "source_sha256": "2889c428ca1dd9c975c3ff760eb8757883490410555ab60b818f712f583826d6",
+      "sha256": "8f23e585d129e6077c1e294a3d2cb5d424e4bd3973a588171e7357fa14ce71e6",
+      "dependencies": [
+        {
+          "file": "Textures/colormap.png",
+          "sha256": "f3622a03a20c6696065cae9cbe391351be873508af190c2ebd1d420c055787a5"
+        }
+      ]
+    },
+    {
+      "file": "cone.glb",
+      "source_path": "Models/GLB format/cone.glb",
+      "source_sha256": "d6659fc365de47c5d056b14f3d3fb3e191d3a5b869c43171753621dcf14b76bd",
+      "sha256": "d6659fc365de47c5d056b14f3d3fb3e191d3a5b869c43171753621dcf14b76bd",
+      "dependencies": [
+        {
+          "file": "Textures/colormap.png",
+          "sha256": "f3622a03a20c6696065cae9cbe391351be873508af190c2ebd1d420c055787a5"
+        }
+      ]
+    }
+  ],
+  "transformations": {
+    "sedan-sports.glb": "Add a four-wheel, one-revolution quaternion clip; split the red body/ spoiler paint triangles into a tintable PBR material (roughness 0.38); preserve windows, tires, lamps and trim on the original map. Source vertex geometry and UVs remain unchanged."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "source_url": "https://kenney.nl/assets/nature-kit",
+  "version": "2.1",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "file": "tree_small.glb",
+      "bytes": 6500,
+      "sha256": "d26c0eeed65cc681667f50042ef23ec72ce47ae3b39837bfeec170b05ba6ab6a"
+    },
+    {
+      "file": "tree_plateau.glb",
+      "bytes": 16304,
+      "sha256": "7f19e347ff28703dd9e5fcce89b920156e291fbdb19331a57cb31a95c73e1322"
+    }
+  ]
+}

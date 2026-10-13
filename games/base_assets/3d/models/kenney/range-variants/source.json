@@ -1,0 +1,55 @@
+{
+  "source": "https://kenney.nl/assets/factory-kit",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "file": "machine-fortified.glb",
+      "source_path": "Models/GLB format/machine-fortified.glb",
+      "source_sha256": "0907f6616f49bbdaa20241ac4b568b780f30352f204851c53568b8e7df59b528",
+      "sha256": "0907f6616f49bbdaa20241ac4b568b780f30352f204851c53568b8e7df59b528",
+      "dependencies": [
+        {
+          "file": "Textures/colormap.png",
+          "sha256": "35d7bd6900dde0208429eeaec87fa17fbf024ed59f3f4eab54bc92802eba9dd7"
+        }
+      ]
+    },
+    {
+      "file": "machine-window-bar.glb",
+      "source_path": "Models/GLB format/machine-window-bar.glb",
+      "source_sha256": "9b0b3e55a2679227c2bbe8164d65e3c98e756496c54a48b76ed1fcf785bea596",
+      "sha256": "9b0b3e55a2679227c2bbe8164d65e3c98e756496c54a48b76ed1fcf785bea596",
+      "dependencies": [
+        {
+          "file": "Textures/colormap.png",
+          "sha256": "35d7bd6900dde0208429eeaec87fa17fbf024ed59f3f4eab54bc92802eba9dd7"
+        }
+      ]
+    },
+    {
+      "file": "box-long.glb",
+      "source_path": "Models/GLB format/box-long.glb",
+      "source_sha256": "6a6d7bfed3058809a9833606a6a3e78a156b6f3d898fba59fc054c62b5499c94",
+      "sha256": "6a6d7bfed3058809a9833606a6a3e78a156b6f3d898fba59fc054c62b5499c94",
+      "dependencies": [
+        {
+          "file": "Textures/colormap.png",
+          "sha256": "35d7bd6900dde0208429eeaec87fa17fbf024ed59f3f4eab54bc92802eba9dd7"
+        }
+      ]
+    },
+    {
+      "file": "box-large.glb",
+      "source_path": "Models/GLB format/box-large.glb",
+      "source_sha256": "f5c7a7b4d7ec48c2695dc5241d62a38dbb54b487e6be0f089548582c91bacdfd",
+      "sha256": "f5c7a7b4d7ec48c2695dc5241d62a38dbb54b487e6be0f089548582c91bacdfd",
+      "dependencies": [
+        {
+          "file": "Textures/colormap.png",
+          "sha256": "35d7bd6900dde0208429eeaec87fa17fbf024ed59f3f4eab54bc92802eba9dd7"
+        }
+      ]
+    }
+  ],
+  "transformations": {}
+}

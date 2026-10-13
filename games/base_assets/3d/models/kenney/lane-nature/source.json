@@ -1,0 +1,14 @@
+{
+  "source": "https://kenney.nl/assets/nature-kit",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "file": "tree_palm.glb",
+      "source_path": "Models/GLTF format/tree_palm.glb",
+      "source_sha256": "27bbb23d26ed788d84de6df2f7fab0acc3fe0ff16c7d08cdcfa1fffcb11de324",
+      "sha256": "086422e4608fec4ad76a96838dc337be33ac3b23d4dd5e5334e66ef2a54cd50f",
+      "dependencies": []
+    }
+  ],
+  "transformations": "Foliage/bark linear RGB and nonmetal PBR calibration; geometry unchanged"
+}

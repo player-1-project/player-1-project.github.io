@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151515"><link rel="icon" href="data:,">
+  <title>Trajectory · Player-1</title>
+  <link rel="stylesheet" href="style.css?v=041bfa978db8"><script type="module" src="trajectory.js"></script>
+</head>
+<body>
+  <main class="page trajectory-page">
+    <header class="panel"><div class="blackbar"><a class="wordmark" href="index.html#top">PLAYER–1</a><nav aria-label="Primary"><a href="index.html#trajectories">← All trajectories</a><a href="assets/player-1.pdf?v=689501882bb6" target="_blank" rel="noopener">Paper ↗</a></nav></div>
+      <div class="trajectory-page-heading"><div><p class="eyebrow" id="trace-benchmark">BENCHMARK TRAJECTORY</p><h1 id="trace-title">Loading trajectory…</h1><p id="trace-task" class="trajectory-task-id"></p></div><div class="trajectory-page-meta"><span id="trace-result">—</span></div></div>
+    </header>
+    <section class="panel trajectory-viewer" aria-label="Trajectory viewer">
+      <div class="trajectory-viewer-grid">
+        <div class="trajectory-visual"><div class="trajectory-image-wrap"><img id="trace-image" alt="Recorded game observation" width="960" height="540"><span id="trace-frame-label" class="trajectory-image-label">OBSERVATION</span></div><div class="trajectory-controls"><button id="trace-prev" type="button" aria-label="Previous sampled decision">← Previous</button><label class="sr-only" for="trace-seek">Sampled decision</label><input id="trace-seek" type="range" min="0" max="0" value="0"><button id="trace-next" type="button" aria-label="Next sampled decision">Next →</button></div><p class="trajectory-step-note" id="trace-step-note"></p></div>
+        <div class="trajectory-output"><div class="trajectory-output-heading"><p class="eyebrow">MODEL OUTPUT</p><span id="trace-counter">—</span></div><section class="trajectory-output-block"><h2>Reasoning</h2><pre id="trace-thinking"></pre></section><section class="trajectory-output-block"><h2>Action</h2><pre id="trace-action"></pre></section></div>
+      </div>
+    </section>
+    <p class="trajectory-page-footnote">Recorded evaluation trajectory. Observations are sampled from the original decision sequence; the reasoning and action shown always belong to the displayed observation's decision step.</p>
+    <footer><a class="wordmark" href="index.html#top">PLAYER–1</a><a href="index.html#trajectories">Back to trajectories ↑</a></footer>
+  </main>
+</body>
+</html>

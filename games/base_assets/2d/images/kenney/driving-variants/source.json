@@ -1,0 +1,84 @@
+{
+  "source": "https://kenney.nl/assets/racing-pack",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "file": "car_red_2.png",
+      "source_path": "PNG/Cars/car_red_2.png",
+      "source_sha256": "2430a1ca83b8fa338326c55730588b5ec727968740d09552184292ca2889d427",
+      "sha256": "2430a1ca83b8fa338326c55730588b5ec727968740d09552184292ca2889d427",
+      "dependencies": []
+    },
+    {
+      "file": "car_yellow_5.png",
+      "source_path": "PNG/Cars/car_yellow_5.png",
+      "source_sha256": "b005e73b1607e8a69be0a29c05a93636a1215bfc31ba7d25cf7a1fd8ad19788d",
+      "sha256": "b005e73b1607e8a69be0a29c05a93636a1215bfc31ba7d25cf7a1fd8ad19788d",
+      "dependencies": []
+    },
+    {
+      "file": "car_green_3.png",
+      "source_path": "PNG/Cars/car_green_3.png",
+      "source_sha256": "b6749fa89b6c8eca35ebfdf53cbbbf36ec05680b978793b481c15e9d4e929a6b",
+      "sha256": "b6749fa89b6c8eca35ebfdf53cbbbf36ec05680b978793b481c15e9d4e929a6b",
+      "dependencies": []
+    },
+    {
+      "file": "tent_red_large.png",
+      "source_path": "PNG/Objects/tent_red_large.png",
+      "source_sha256": "5824055bc18d91f9236af87b8c33dbc5a44e8fc56ca0d626754a271a0cfa7f72",
+      "sha256": "5824055bc18d91f9236af87b8c33dbc5a44e8fc56ca0d626754a271a0cfa7f72",
+      "dependencies": []
+    },
+    {
+      "file": "tent_red.png",
+      "source_path": "PNG/Objects/tent_red.png",
+      "source_sha256": "3838161e7316976110bffbcf312d8cdde61cd85ad7dc166c985f02f2da44e369",
+      "sha256": "3838161e7316976110bffbcf312d8cdde61cd85ad7dc166c985f02f2da44e369",
+      "dependencies": []
+    },
+    {
+      "file": "tent_blue.png",
+      "source_path": "PNG/Objects/tent_blue.png",
+      "source_sha256": "0bf5d16a88c621518aba28a77f550a54f3936b452e2ac92dec0107634c00b91e",
+      "sha256": "0bf5d16a88c621518aba28a77f550a54f3936b452e2ac92dec0107634c00b91e",
+      "dependencies": []
+    },
+    {
+      "file": "rock2.png",
+      "source_path": "PNG/Objects/rock2.png",
+      "source_sha256": "f42e45285ae1e81c90cfa09140f26c97c72fcef61e3e75d107352dadad51f754",
+      "sha256": "f42e45285ae1e81c90cfa09140f26c97c72fcef61e3e75d107352dadad51f754",
+      "dependencies": []
+    },
+    {
+      "file": "rock3.png",
+      "source_path": "PNG/Objects/rock3.png",
+      "source_sha256": "5d3abf36ee360f0c7b5e692e94ccceea2c204656d8bf37e6c539c591f6b094db",
+      "sha256": "5d3abf36ee360f0c7b5e692e94ccceea2c204656d8bf37e6c539c591f6b094db",
+      "dependencies": []
+    },
+    {
+      "file": "barrier_red.png",
+      "source_path": "PNG/Objects/barrier_red.png",
+      "source_sha256": "566d701cb8046a67a89bddf52c41b75cc562789f1ae772c6e38b2d370f4a42f3",
+      "sha256": "566d701cb8046a67a89bddf52c41b75cc562789f1ae772c6e38b2d370f4a42f3",
+      "dependencies": []
+    },
+    {
+      "file": "barrier_red_race.png",
+      "source_path": "PNG/Objects/barrier_red_race.png",
+      "source_sha256": "4f5a0bc44dc0b6bf3a45ec92c7167a512dc4570663973dd00c55fecb740dc146",
+      "sha256": "4f5a0bc44dc0b6bf3a45ec92c7167a512dc4570663973dd00c55fecb740dc146",
+      "dependencies": []
+    },
+    {
+      "file": "tires_red.png",
+      "source_path": "PNG/Objects/tires_red.png",
+      "source_sha256": "663a649d37a34219ad2b71f3ab7b1b21f22d4e76bac247f9b5bbea78478dc810",
+      "sha256": "663a649d37a34219ad2b71f3ab7b1b21f22d4e76bac247f9b5bbea78478dc810",
+      "dependencies": []
+    }
+  ],
+  "transformations": {}
+}

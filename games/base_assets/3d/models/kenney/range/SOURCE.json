@@ -1,0 +1,29 @@
+{
+  "source": "https://kenney.nl/assets/blaster-kit",
+  "version": "2.1",
+  "license": "CC0-1.0",
+  "retrieved": "2026-09-10",
+  "purpose": "Precision Hall target backing and service equipment",
+  "files": [
+    {
+      "path": "License.txt",
+      "bytes": 700,
+      "sha256": "bece5f4d99cca9dcf86931221a69909862ff6cc95e1735462ee678516a1063e2"
+    },
+    {
+      "path": "Textures/colormap.png",
+      "bytes": 10223,
+      "sha256": "4d0867c3c3c8c539106f91fbc0987d0e1b7d2811362d1daed593169c7d3b0fdc"
+    },
+    {
+      "path": "crate-wide.glb",
+      "bytes": 59404,
+      "sha256": "0a17a51b274d238c09ade21674b70742bd5f1703f7b0e8974b6d0b2b92a58c8b"
+    },
+    {
+      "path": "target-large.glb",
+      "bytes": 7568,
+      "sha256": "e55c0b3652823909268ffeda38f08f53e900ea259ff5834a3e35e386a9220e88"
+    }
+  ]
+}

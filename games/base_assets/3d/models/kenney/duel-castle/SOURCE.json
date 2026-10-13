@@ -1,0 +1,53 @@
+{
+  "source_url": "https://kenney.nl/assets/castle-kit",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "file": "wall.glb",
+      "bytes": 16552,
+      "sha256": "b2ea00acbf4ba91ff0d4b8b942edf9fa12d821abd0b2c945c57a2b9b3153cfe3",
+      "source_sha256": "b2ea00acbf4ba91ff0d4b8b942edf9fa12d821abd0b2c945c57a2b9b3153cfe3",
+      "transforms": []
+    },
+    {
+      "file": "wall-pillar.glb",
+      "bytes": 18156,
+      "sha256": "22d359abfaa3cf3dc5a2fece09a108024a07a4e263b21a4a0689da0e630699ed",
+      "source_sha256": "22d359abfaa3cf3dc5a2fece09a108024a07a4e263b21a4a0689da0e630699ed",
+      "transforms": []
+    },
+    {
+      "file": "tower-square-top.glb",
+      "bytes": 13276,
+      "sha256": "5e98cdf2bf4d885edc3fa514719f80d63872e11c54ee629c11859223dad8489c",
+      "source_sha256": "5e98cdf2bf4d885edc3fa514719f80d63872e11c54ee629c11859223dad8489c",
+      "transforms": []
+    },
+    {
+      "file": "flag-banner-long.glb",
+      "bytes": 6660,
+      "sha256": "e6a4433f5770b9fc31bf67d72424a877d5c010486d5b7373ce7af900566827e4",
+      "source_sha256": "e6a4433f5770b9fc31bf67d72424a877d5c010486d5b7373ce7af900566827e4",
+      "transforms": []
+    },
+    {
+      "file": "wall-doorway.glb",
+      "bytes": 37560,
+      "sha256": "8daf5cccceace888d51d74b0e0254e192004faf926e07f1b28e94191879af3a6",
+      "source_sha256": "8daf5cccceace888d51d74b0e0254e192004faf926e07f1b28e94191879af3a6",
+      "transforms": []
+    },
+    {
+      "file": "gate.glb",
+      "bytes": 13880,
+      "sha256": "fdc3d5b07f619dcacbf2af36024dc9a356696e541f6ce409a5305be782665ec9",
+      "source_sha256": "fdc3d5b07f619dcacbf2af36024dc9a356696e541f6ce409a5305be782665ec9",
+      "transforms": []
+    },
+    {
+      "file": "Textures/colormap.png",
+      "bytes": 7529,
+      "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0"
+    }
+  ]
+}

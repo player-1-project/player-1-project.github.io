@@ -1,0 +1,43 @@
+{
+  "source": "https://kenney.nl/assets/city-kit-suburban",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "file": "building-type-b.glb",
+      "source_path": "Models/GLB format/building-type-b.glb",
+      "source_sha256": "a964a10c51bb334be677657fd8fa483531974dd15b4243575990192818e2300e",
+      "sha256": "a964a10c51bb334be677657fd8fa483531974dd15b4243575990192818e2300e",
+      "dependencies": [
+        {
+          "file": "Textures/colormap.png",
+          "sha256": "9b5de86078c25ef02351a80d35ff3c978693a1044565b73eedd9ae9b5b80665d"
+        }
+      ]
+    },
+    {
+      "file": "building-type-c.glb",
+      "source_path": "Models/GLB format/building-type-c.glb",
+      "source_sha256": "86a69f30f1a09461283e158514945ae5cc9d56357b0ddc83a9a3f0eecd113591",
+      "sha256": "86a69f30f1a09461283e158514945ae5cc9d56357b0ddc83a9a3f0eecd113591",
+      "dependencies": [
+        {
+          "file": "Textures/colormap.png",
+          "sha256": "9b5de86078c25ef02351a80d35ff3c978693a1044565b73eedd9ae9b5b80665d"
+        }
+      ]
+    },
+    {
+      "file": "building-type-d.glb",
+      "source_path": "Models/GLB format/building-type-d.glb",
+      "source_sha256": "a41cd28265b2b224e700373c3a8356562619699998b7fa4d70ed41de629a6731",
+      "sha256": "a41cd28265b2b224e700373c3a8356562619699998b7fa4d70ed41de629a6731",
+      "dependencies": [
+        {
+          "file": "Textures/colormap.png",
+          "sha256": "9b5de86078c25ef02351a80d35ff3c978693a1044565b73eedd9ae9b5b80665d"
+        }
+      ]
+    }
+  ],
+  "transformations": {}
+}

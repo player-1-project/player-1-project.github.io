@@ -1,0 +1,31 @@
+{
+  "source": "https://kenney.nl/assets/city-kit-roads",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "file": "light-curved.glb",
+      "source_path": "Models/GLB format/light-curved.glb",
+      "source_sha256": "154dcce9d58ec2cd165e26c91a89c97bdd2838cf06d255099b3570df84f82ec6",
+      "sha256": "154dcce9d58ec2cd165e26c91a89c97bdd2838cf06d255099b3570df84f82ec6",
+      "dependencies": [
+        {
+          "file": "Textures/colormap.png",
+          "sha256": "a48e2962661ae44368ffddf3054f80ed8491d082b757dcc3011184cd9a98b185"
+        }
+      ]
+    },
+    {
+      "file": "road-sign-warning.glb",
+      "source_path": "Models/GLB format/road-sign-warning.glb",
+      "source_sha256": "db8049a51eb60c77e40253e8b5a9d41359a49d2a9083223dce361cfb0605c3a9",
+      "sha256": "db8049a51eb60c77e40253e8b5a9d41359a49d2a9083223dce361cfb0605c3a9",
+      "dependencies": [
+        {
+          "file": "Textures/colormap.png",
+          "sha256": "a48e2962661ae44368ffddf3054f80ed8491d082b757dcc3011184cd9a98b185"
+        }
+      ]
+    }
+  ],
+  "transformations": {}
+}

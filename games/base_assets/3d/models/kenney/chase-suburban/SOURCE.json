@@ -1,0 +1,37 @@
+{
+  "source_url": "https://kenney.nl/assets/city-kit-suburban",
+  "version": "2.0",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "file": "building-type-a.glb",
+      "bytes": 98604,
+      "sha256": "49f32e20b9dcd24b1c8f6d6488807b8c8cb684cbb595bfb0bb36ad903e470faa"
+    },
+    {
+      "file": "building-type-j.glb",
+      "bytes": 99512,
+      "sha256": "fbdce9cb6bb6cf60a861bab36a896403aff604afbf2cb2b86676ae6f49fa2de3"
+    },
+    {
+      "file": "building-type-p.glb",
+      "bytes": 109260,
+      "sha256": "561b2eff15bd2bfe2799a8a049cafc70a1c7bfb6e35f3b2a4d95c8f4f376458c"
+    },
+    {
+      "file": "fence.glb",
+      "bytes": 9672,
+      "sha256": "073bd2000ac51879516d49f835d5156dac4d5038085380b1232858fc3f562d02"
+    },
+    {
+      "file": "tree-small.glb",
+      "bytes": 5812,
+      "sha256": "5f63359e5f392609d7617cc98070855ca1ffd4f4b4bc3978a5ff56ece88a58d6"
+    },
+    {
+      "file": "Textures/colormap.png",
+      "bytes": 11784,
+      "sha256": "9b5de86078c25ef02351a80d35ff3c978693a1044565b73eedd9ae9b5b80665d"
+    }
+  ]
+}

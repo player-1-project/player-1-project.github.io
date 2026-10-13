@@ -1,0 +1,654 @@
+{
+  "kind": "recorded_controls",
+  "revision": "9380c9405b11674eb7a9e07da8be0fd2552ae063df8c3f97967e023d709d7534",
+  "default_duration_ms": 10000,
+  "clips": [
+    {
+      "name": "pointer-absolute",
+      "kind": "pointer",
+      "extended": false,
+      "source_type": "continuous_control_demonstration",
+      "fps": 30,
+      "duration_ms": 6000,
+      "source_range_ms": [
+        0,
+        6000
+      ],
+      "source": {
+        "game": "Minecraft Java Edition",
+        "version": "1.21.10",
+        "operator_type": "scripted_control_demonstration",
+        "world_seed": -7492610053391186831,
+        "start_position": [
+          -479.5,
+          132.0,
+          52.5
+        ],
+        "start_yaw_pitch": [
+          -155.0,
+          16.0
+        ],
+        "control": "Native inventory screen pickup/place clicks at absolute slot coordinates",
+        "duration_ms": 6000,
+        "fps": 30,
+        "frames": 180,
+        "capture": "Original Minecraft OpenGL back buffer",
+        "native_viewport": [
+          2560,
+          1440
+        ],
+        "video_viewport": [
+          1280,
+          720
+        ],
+        "mouse_sensitivity": 0.5,
+        "final_inventory": [
+          {
+            "item": "32 minecraft:oak_log",
+            "count": 32,
+            "menu_slot": 13
+          },
+          {
+            "item": "8 minecraft:apple",
+            "count": 8,
+            "menu_slot": 10
+          }
+        ],
+        "held_item": "0 minecraft:air",
+        "input_seed": 20261012,
+        "click_positions_gui": [
+          [
+            143.2842086408944,
+            191.8902192836291
+          ],
+          [
+            217.50722504113588,
+            134.01185615835135
+          ],
+          [
+            198.88107079757617,
+            183.35462238044843
+          ],
+          [
+            154.74736592848834,
+            131.21964178062558
+          ]
+        ],
+        "cursor_movement_duration_ms": 100,
+        "final_yaw_pitch": [
+          -155.0,
+          16.0
+        ],
+        "wall_duration_ms": 6000.721833,
+        "controller_source": "scripts/player1/recording/minecraft/MinecraftPointerRecordingAgent.java",
+        "controller_sha256": "7922565d4d982d2baf209c551f022b7e8c0b03f84715ecbfdfbf230b7ae48012",
+        "controller_jar_sha256": "bc2d4e775750e278f0ac5f8d5029b56aeb70954ecbebe68657dbbb92d2dbab21",
+        "mappings_sha256": "2a6f53f4c1fd048e8fa956e3a3fbbb0afc02d5bbc23e52a16b328aed61b9bf39",
+        "video_sha256": "bd76584635f6340275c16cf2ece81326ed6a8f4f27908fa1d2cc4b2556bbe68d",
+        "events_sha256": "21de0d966ec8d92ccbabc6ec92f9540157f13806a3ebd028fd7b0c4059bfa30f",
+        "scene": "Open natural mountain meadow",
+        "world_copy": "Isolated local copy of the prepared natural world",
+        "input_clock": "Monotonic video clock; native client tick inputs"
+      }
+    },
+    {
+      "name": "pointer-relative",
+      "kind": "pointer",
+      "extended": true,
+      "source_type": "continuous_control_demonstration",
+      "fps": 30,
+      "duration_ms": 6000,
+      "source_range_ms": [
+        0,
+        6000
+      ],
+      "source": {
+        "game": "Minecraft Java Edition",
+        "version": "1.21.10",
+        "operator_type": "scripted_control_demonstration",
+        "world_seed": -7492610053391186831,
+        "start_position": [
+          -479.5,
+          132.0,
+          52.5
+        ],
+        "start_yaw_pitch": [
+          -155.0,
+          16.0
+        ],
+        "control": "Native MouseHandler relative dx/dy input follows a bat in an open mountain meadow",
+        "duration_ms": 6000,
+        "fps": 30,
+        "frames": 180,
+        "capture": "Original Minecraft OpenGL back buffer",
+        "native_viewport": [
+          2560,
+          1440
+        ],
+        "video_viewport": [
+          1280,
+          720
+        ],
+        "mouse_sensitivity": 0.5,
+        "final_inventory": [],
+        "held_item": "1 minecraft:iron_sword",
+        "input_seed": 20261012,
+        "tracking_target": "Native bat with scripted flight, tracked through actual client entity positions",
+        "flight_segments_seconds_yaw_pitch": [
+          [
+            0.5,
+            1.2,
+            17.0,
+            -2.0
+          ],
+          [
+            1.55,
+            2.65,
+            31.0,
+            3.0
+          ],
+          [
+            3.0,
+            3.8,
+            -22.0,
+            -8.0
+          ],
+          [
+            4.05,
+            5.3,
+            -34.0,
+            -14.0
+          ]
+        ],
+        "tracking_bias": {
+          "yaw_magnitude_degrees": [
+            1.8,
+            3.8
+          ],
+          "pitch_magnitude_degrees": [
+            0.6,
+            2.0
+          ],
+          "smoothing_gain": 0.18,
+          "correction_gain": 0.3,
+          "refresh_client_ticks": [
+            8,
+            17
+          ]
+        },
+        "final_yaw_pitch": [
+          -164.00464,
+          -3.4900029
+        ],
+        "wall_duration_ms": 6000.82125,
+        "controller_source": "scripts/player1/recording/minecraft/MinecraftPointerRecordingAgent.java",
+        "controller_sha256": "7922565d4d982d2baf209c551f022b7e8c0b03f84715ecbfdfbf230b7ae48012",
+        "controller_jar_sha256": "bc2d4e775750e278f0ac5f8d5029b56aeb70954ecbebe68657dbbb92d2dbab21",
+        "mappings_sha256": "2a6f53f4c1fd048e8fa956e3a3fbbb0afc02d5bbc23e52a16b328aed61b9bf39",
+        "video_sha256": "4413d7f6cb1611e404207cdc99d77288d8287a18e059e9134767cdec3793af2e",
+        "events_sha256": "696695adeb7ba83b6b776a5c83b8ccf558984e61c39a736475937910f81531c2",
+        "scene": "Open natural mountain meadow",
+        "world_copy": "Isolated local copy of the prepared natural world",
+        "input_clock": "Monotonic video clock; native client tick inputs"
+      }
+    },
+    {
+      "name": "composite-serial",
+      "kind": "composite",
+      "extended": false,
+      "source_type": "continuous_control_demonstration",
+      "fps": 30,
+      "duration_ms": 9000,
+      "source_range_ms": [
+        1000,
+        10000
+      ],
+      "source": {
+        "game": "ViZDoom",
+        "scenario": "deadly_corridor",
+        "scenario_name": "Deadly Corridor",
+        "environment_version": "1.3.0",
+        "seed": 42,
+        "operator_type": "scripted_control_demonstration",
+        "extended": false,
+        "duration_ms": 11200,
+        "fps": 30,
+        "frames": 336,
+        "resolution": [
+          1280,
+          720
+        ],
+        "native_tics_per_second": 35,
+        "native_frames": 392,
+        "native_duration_ms": 11200,
+        "playback_speed": 1.0,
+        "resampling": "35 native frames/second at 1x playback to 30 fps; no interpolation",
+        "initial_native_tic": 2,
+        "initial_state": {
+          "POSITION_X": 0.0,
+          "POSITION_Y": 0.0,
+          "ANGLE": 0.0,
+          "HEALTH": 100.0,
+          "KILLCOUNT": 0.0,
+          "AMMO2": 52.0
+        },
+        "final_state": {
+          "POSITION_X": 885.8227844238281,
+          "POSITION_Y": -14.405105590820312,
+          "ANGLE": 358.0773926614964,
+          "HEALTH": 100.0,
+          "KILLCOUNT": 2.0,
+          "AMMO2": 46.0
+        },
+        "initial_enemies": [
+          {
+            "id": 2,
+            "name": "ChaingunGuy",
+            "spawn_x": 1024.0,
+            "spawn_y": 64.0
+          },
+          {
+            "id": 3,
+            "name": "Zombieman",
+            "spawn_x": 608.0,
+            "spawn_y": 64.0
+          },
+          {
+            "id": 4,
+            "name": "ShotgunGuy",
+            "spawn_x": 1024.0,
+            "spawn_y": -64.0
+          },
+          {
+            "id": 5,
+            "name": "ChaingunGuy",
+            "spawn_x": 608.0,
+            "spawn_y": -64.0
+          }
+        ],
+        "defeated_enemies": [
+          {
+            "id": 3,
+            "name": "Zombieman",
+            "spawn_x": 608.0,
+            "spawn_y": 64.0
+          },
+          {
+            "id": 5,
+            "name": "ChaingunGuy",
+            "spawn_x": 608.0,
+            "spawn_y": -64.0
+          }
+        ],
+        "enemies_cleared": 2,
+        "firing_bursts": [
+          {
+            "target_id": 3,
+            "start_tic": 146,
+            "shots_at_start": 0,
+            "target_cleared_tic": 151,
+            "shots_at_clear": 1,
+            "end_tic": 188,
+            "shots_at_end": 3
+          },
+          {
+            "target_id": 5,
+            "start_tic": 238,
+            "shots_at_start": 3,
+            "target_cleared_tic": 243,
+            "shots_at_clear": 4,
+            "end_tic": 280,
+            "shots_at_end": 6
+          }
+        ],
+        "initial_frame_sha256": "74c9a9f78a8fccd850dad37910e3c3807d4a8ecedc17f6ee3486850b05d38eed",
+        "capture_settings": {
+          "doom_skill": 5,
+          "invulnerable": true,
+          "movement_turbo_percent": 60,
+          "render_weapon": true,
+          "render_hud": false,
+          "render_messages": false,
+          "mouse_turn": {
+            "button": "TURN_LEFT_RIGHT_DELTA",
+            "max_degrees_per_tic": 1.6,
+            "gain_range": [
+              0.12,
+              0.18
+            ],
+            "sample_interval_tics": [
+              2,
+              5
+            ],
+            "aim_bias_degrees": [
+              -1.7,
+              1.7
+            ],
+            "bias_interval_tics": [
+              10,
+              22
+            ],
+            "micro_correction_degrees": [
+              -0.12,
+              0.12
+            ],
+            "seed": 743
+          },
+          "minimum_serial_fire_tics": 42
+        },
+        "protocol": "move, stop and aim, hold fire; repeat for the second enemy, then aim forward and advance",
+        "config": "/Users/yyyang/.cache/player1/vizdoom-human/lib/python3.12/site-packages/vizdoom/scenarios/deadly_corridor.cfg",
+        "config_sha256": "08c6fbd9559bd2016bff83f4d923e9ff2e39fa01d4cf245d318dce782237095d",
+        "original_wad_sha256": "3c868f88c78df8219a2c41a2695ae04e5a19d60a32f1718282b3bbc7f20951ca",
+        "wad_sha256": "eefdf0c67bc06fb597103398a2b616b39288d8398496589b90143d8def2de110",
+        "scenario_copy": "deadly-corridor-empty-entrance.wad",
+        "removed_entrance_placements": [
+          {
+            "x": 160.0,
+            "y": 64.0,
+            "type": 9.0,
+            "id": 10.0
+          },
+          {
+            "x": 160.0,
+            "y": -64.0,
+            "type": 3004.0,
+            "id": 11.0
+          }
+        ],
+        "controller_source": "/Users/yyyang/workspace/game-gym/scripts/player1/recording/record_vizdoom_composite.py",
+        "controller_sha256": "8e6a22034901c0cc918c7165a1e9b03fcf55484e80cbc61c96bd27b0fa22a4d0",
+        "video_sha256": "59b0a5ee94d6a434e4be8c41cf7c9a6fb6ec73a14fb4f81f386fa5c647472ba3",
+        "events_sha256": "8fb22c6b763afeea95aa9576050d06035c6d047bc64de09039da0b295649bbac"
+      }
+    },
+    {
+      "name": "composite-parallel",
+      "kind": "composite",
+      "extended": true,
+      "source_type": "continuous_control_demonstration",
+      "fps": 30,
+      "duration_ms": 9000,
+      "source_range_ms": [
+        1000,
+        10000
+      ],
+      "source": {
+        "game": "ViZDoom",
+        "scenario": "deadly_corridor",
+        "scenario_name": "Deadly Corridor",
+        "environment_version": "1.3.0",
+        "seed": 42,
+        "operator_type": "scripted_control_demonstration",
+        "extended": true,
+        "duration_ms": 11200,
+        "fps": 30,
+        "frames": 336,
+        "resolution": [
+          1280,
+          720
+        ],
+        "native_tics_per_second": 35,
+        "native_frames": 392,
+        "native_duration_ms": 11200,
+        "playback_speed": 1.0,
+        "resampling": "35 native frames/second at 1x playback to 30 fps; no interpolation",
+        "initial_native_tic": 2,
+        "initial_state": {
+          "POSITION_X": 0.0,
+          "POSITION_Y": 0.0,
+          "ANGLE": 0.0,
+          "HEALTH": 100.0,
+          "KILLCOUNT": 0.0,
+          "AMMO2": 52.0
+        },
+        "final_state": {
+          "POSITION_X": 1187.3236236572266,
+          "POSITION_Y": 15.565261840820312,
+          "ANGLE": 0.8404541017581835,
+          "HEALTH": 100.0,
+          "KILLCOUNT": 4.0,
+          "AMMO2": 49.0
+        },
+        "initial_enemies": [
+          {
+            "id": 2,
+            "name": "ChaingunGuy",
+            "spawn_x": 1024.0,
+            "spawn_y": 64.0
+          },
+          {
+            "id": 3,
+            "name": "Zombieman",
+            "spawn_x": 608.0,
+            "spawn_y": 64.0
+          },
+          {
+            "id": 4,
+            "name": "ShotgunGuy",
+            "spawn_x": 1024.0,
+            "spawn_y": -64.0
+          },
+          {
+            "id": 5,
+            "name": "ChaingunGuy",
+            "spawn_x": 608.0,
+            "spawn_y": -64.0
+          }
+        ],
+        "defeated_enemies": [
+          {
+            "id": 2,
+            "name": "ChaingunGuy",
+            "spawn_x": 1024.0,
+            "spawn_y": 64.0
+          },
+          {
+            "id": 3,
+            "name": "Zombieman",
+            "spawn_x": 608.0,
+            "spawn_y": 64.0
+          },
+          {
+            "id": 4,
+            "name": "ShotgunGuy",
+            "spawn_x": 1024.0,
+            "spawn_y": -64.0
+          },
+          {
+            "id": 5,
+            "name": "ChaingunGuy",
+            "spawn_x": 608.0,
+            "spawn_y": -64.0
+          }
+        ],
+        "enemies_cleared": 4,
+        "firing_bursts": [
+          {
+            "encounter_spawn_x": 608.0,
+            "start_tic": 86,
+            "shots_at_start": 0,
+            "end_tic": 203,
+            "shots_at_end": 9
+          },
+          {
+            "encounter_spawn_x": 1024.0,
+            "start_tic": 274,
+            "shots_at_start": 9,
+            "end_tic": 323,
+            "shots_at_end": 22
+          }
+        ],
+        "initial_frame_sha256": "74c9a9f78a8fccd850dad37910e3c3807d4a8ecedc17f6ee3486850b05d38eed",
+        "capture_settings": {
+          "doom_skill": 5,
+          "invulnerable": true,
+          "movement_turbo_percent": 60,
+          "render_weapon": true,
+          "render_hud": false,
+          "render_messages": false,
+          "mouse_turn": {
+            "button": "TURN_LEFT_RIGHT_DELTA",
+            "max_degrees_per_tic": 1.6,
+            "gain_range": [
+              0.12,
+              0.18
+            ],
+            "sample_interval_tics": [
+              2,
+              5
+            ],
+            "aim_bias_degrees": [
+              -1.7,
+              1.7
+            ],
+            "bias_interval_tics": [
+              10,
+              22
+            ],
+            "micro_correction_degrees": [
+              -0.12,
+              0.12
+            ],
+            "seed": 743
+          },
+          "minimum_serial_fire_tics": 42
+        },
+        "protocol": "continuous move and aim; hold fire throughout each enemy encounter, then advance",
+        "config": "/Users/yyyang/.cache/player1/vizdoom-human/lib/python3.12/site-packages/vizdoom/scenarios/deadly_corridor.cfg",
+        "config_sha256": "08c6fbd9559bd2016bff83f4d923e9ff2e39fa01d4cf245d318dce782237095d",
+        "original_wad_sha256": "3c868f88c78df8219a2c41a2695ae04e5a19d60a32f1718282b3bbc7f20951ca",
+        "wad_sha256": "eefdf0c67bc06fb597103398a2b616b39288d8398496589b90143d8def2de110",
+        "scenario_copy": "deadly-corridor-empty-entrance.wad",
+        "removed_entrance_placements": [
+          {
+            "x": 160.0,
+            "y": 64.0,
+            "type": 9.0,
+            "id": 10.0
+          },
+          {
+            "x": 160.0,
+            "y": -64.0,
+            "type": 3004.0,
+            "id": 11.0
+          }
+        ],
+        "controller_source": "/Users/yyyang/workspace/game-gym/scripts/player1/recording/record_vizdoom_composite.py",
+        "controller_sha256": "8e6a22034901c0cc918c7165a1e9b03fcf55484e80cbc61c96bd27b0fa22a4d0",
+        "video_sha256": "44c7d7bc853bd2069a31320177e72578c97d8d60a1bc956423350fcbab6122bb",
+        "events_sha256": "d2b3a06110557992e7c4f4a07ca2c7d87b9308756304fccd1734166df9514f01"
+      }
+    },
+    {
+      "name": "press-tap",
+      "kind": "press",
+      "extended": false,
+      "source_type": "continuous_control_demonstration",
+      "fps": 30,
+      "duration_ms": 8300,
+      "source_range_ms": [
+        533,
+        8833
+      ],
+      "source": {
+        "operator_type": "scripted_control_demonstration",
+        "camera_control": "Fixed native player camera and logical pointer lock during scripted input",
+        "scene_setup": "Natural forest; fixed tree, player pose, noon and clear weather; nearby ambient entities cleared before each take",
+        "game": "Minecraft Java Edition",
+        "version": "1.21.10",
+        "world_seed": -7492610053391186831,
+        "start_position": [
+          -415.5,
+          68.0,
+          78.5
+        ],
+        "start_camera_yaw_pitch": [
+          -90.0,
+          2.29061
+        ],
+        "control": "One native left-button pulse per second, one client tick per pulse",
+        "duration_ms": 10000,
+        "fps": 30,
+        "frame_count": 300,
+        "capture": "Original Minecraft OpenGL back buffer, full game viewport",
+        "native_viewport": [
+          2560,
+          1440
+        ],
+        "video_viewport": [
+          1280,
+          720
+        ],
+        "first_block": [
+          -413,
+          69,
+          78
+        ],
+        "second_block": [
+          -413,
+          70,
+          78
+        ],
+        "first_block_broken": false,
+        "second_block_broken": false,
+        "wall_duration_ms": 10005.253458
+      }
+    },
+    {
+      "name": "press-hold",
+      "kind": "press",
+      "extended": true,
+      "source_type": "continuous_control_demonstration",
+      "fps": 30,
+      "duration_ms": 8300,
+      "source_range_ms": [
+        533,
+        8833
+      ],
+      "source": {
+        "operator_type": "scripted_control_demonstration",
+        "camera_control": "Fixed native player camera and logical pointer lock during scripted input",
+        "scene_setup": "Natural forest; fixed tree, player pose, noon and clear weather; nearby ambient entities cleared before each take",
+        "game": "Minecraft Java Edition",
+        "version": "1.21.10",
+        "world_seed": -7492610053391186831,
+        "start_position": [
+          -415.5,
+          68.0,
+          78.5
+        ],
+        "start_camera_yaw_pitch": [
+          -90.0,
+          2.29061
+        ],
+        "control": "Continuous native left-button hold; aim upward after first log breaks",
+        "duration_ms": 10000,
+        "fps": 30,
+        "frame_count": 300,
+        "capture": "Original Minecraft OpenGL back buffer, full game viewport",
+        "native_viewport": [
+          2560,
+          1440
+        ],
+        "video_viewport": [
+          1280,
+          720
+        ],
+        "first_block": [
+          -413,
+          69,
+          78
+        ],
+        "second_block": [
+          -413,
+          70,
+          78
+        ],
+        "first_block_broken": true,
+        "second_block_broken": true,
+        "wall_duration_ms": 10001.777208
+      }
+    }
+  ]
+}

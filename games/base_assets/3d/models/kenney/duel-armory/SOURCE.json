@@ -1,0 +1,39 @@
+{
+  "source_url": "https://kenney.nl/assets/mini-dungeon",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "file": "weapon-sword.glb",
+      "bytes": 9284,
+      "sha256": "8e69eb27977f8c84a9b7cd423cd5830eddcf0d07ac1d7fed1969931387015b28",
+      "source_sha256": "8e69eb27977f8c84a9b7cd423cd5830eddcf0d07ac1d7fed1969931387015b28",
+      "transforms": []
+    },
+    {
+      "file": "weapon-spear.glb",
+      "bytes": 7152,
+      "sha256": "991fbb818c13226981d8c53b2a709c98bcc594b6cb895eea06478f3630814574",
+      "source_sha256": "991fbb818c13226981d8c53b2a709c98bcc594b6cb895eea06478f3630814574",
+      "transforms": []
+    },
+    {
+      "file": "banner.glb",
+      "bytes": 19272,
+      "sha256": "94c67a03f0fbf4b3a80439d8094773f8e0c96d3f9552138576a50f0b11bea44c",
+      "source_sha256": "94c67a03f0fbf4b3a80439d8094773f8e0c96d3f9552138576a50f0b11bea44c",
+      "transforms": []
+    },
+    {
+      "file": "column.glb",
+      "bytes": 11268,
+      "sha256": "6155d05cde0e7268b3c3db6d27a54bc2b06ff2cc09ee09e280414577b1e20717",
+      "source_sha256": "6155d05cde0e7268b3c3db6d27a54bc2b06ff2cc09ee09e280414577b1e20717",
+      "transforms": []
+    },
+    {
+      "file": "Textures/colormap.png",
+      "bytes": 10838,
+      "sha256": "bc492d755caf9e64924447f065681be0d5438a33cd0acddc72f3d00fd75893be"
+    }
+  ]
+}

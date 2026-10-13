@@ -1,0 +1,70 @@
+{
+  "name": "Kenney Factory Kit",
+  "version": "3.0",
+  "license": "CC0-1.0",
+  "source_url": "https://kenney.nl/assets/factory-kit",
+  "download_url": "https://kenney.nl/media/pages/assets/factory-kit/edaac9d4f6-1777639602/kenney_factory-kit_3.0.zip",
+  "archive": {
+    "path": "/Users/yyyang/workspace/game-gym/outputs/visual-upgrade-implementation-20260910/source-assets/factory-kit/kenney_factory-kit_3.0.zip",
+    "filename": "kenney_factory-kit_3.0.zip",
+    "bytes": 4511890,
+    "sha256": "7e31fb2308e90304672bd15cd18fa9d9f02c03731a8cbc57a8e3e1c181dfb0a7"
+  },
+  "files": [
+    {
+      "path": "License.txt",
+      "sha256": "61e86565dd297e143ad631594980eda0a17fc81a4cd7c6d71acf2f5e0cad30b6",
+      "bytes": 700
+    },
+    {
+      "path": "Textures/colormap.png",
+      "sha256": "35d7bd6900dde0208429eeaec87fa17fbf024ed59f3f4eab54bc92802eba9dd7",
+      "bytes": 11813
+    },
+    {
+      "path": "box-large.glb",
+      "sha256": "f5c7a7b4d7ec48c2695dc5241d62a38dbb54b487e6be0f089548582c91bacdfd",
+      "bytes": 7496
+    },
+    {
+      "path": "box-small.glb",
+      "sha256": "fd2ea1ac4f24a9515dc9c53a4a589a8897c824fa5865771799f965a252f684f0",
+      "bytes": 7500
+    },
+    {
+      "path": "catwalk-straight.glb",
+      "sha256": "85797c6ce53e3f4373bc59ecd3ce951a3f6b707651def5e0bae46756051cd18d",
+      "bytes": 33492
+    },
+    {
+      "path": "machine-window.glb",
+      "sha256": "1387bd337354fca7c7cb4163e6bd4bef8711373bbe23dae01ba9d42cd35681b7",
+      "bytes": 38812
+    },
+    {
+      "path": "machine.glb",
+      "sha256": "a39e3042bcb7789274428357383317d70e1c31906e5301c99e7d9e90ac584863",
+      "bytes": 25620
+    },
+    {
+      "path": "pipe-large-bend.glb",
+      "sha256": "e234cba2e29bd825b9acdab56c0ff36504a6ceea4c74b21dafbbd98e84bb793b",
+      "bytes": 44512
+    },
+    {
+      "path": "pipe-large-long.glb",
+      "sha256": "8e6650cc662695c28fffb1ffa10f190255f7d9c6c1d4a2a48d375e9bbb89b04f",
+      "bytes": 27288
+    },
+    {
+      "path": "screen-wide.glb",
+      "sha256": "220211ee38d51a521475caec06bb27aa231f5b1d43fd74cb93393cca47edfda3",
+      "bytes": 13904
+    },
+    {
+      "path": "structure-yellow-medium.glb",
+      "sha256": "8f4b141c396036fd621e72e1065f8bc4f5027779d3cd7beaf5ac65cdadff6a06",
+      "bytes": 36796
+    }
+  ]
+}

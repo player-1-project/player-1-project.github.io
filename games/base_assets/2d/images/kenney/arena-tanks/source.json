@@ -1,0 +1,125 @@
+{
+  "source": "https://kenney.nl/assets/topdown-tanks-redux",
+  "license": "CC0 1.0",
+  "revision": "arena-rovers-1",
+  "files": [
+    {
+      "file": "tankBody_blue.png",
+      "source_file": "PNG/Default size/tankBody_blue.png",
+      "sha256": "45938c218311c4a9f7db25e66399ce3f7df6a1758b7c1667e61f5e350d45642e"
+    },
+    {
+      "file": "tankBody_red.png",
+      "source_file": "PNG/Default size/tankBody_red.png",
+      "sha256": "d6ff01393d8bd21bb9ddf08d099a9aa3665889a0d9be06b65c78459c9a7dc2ad"
+    },
+    {
+      "file": "tankBlue_barrel1.png",
+      "source_file": "PNG/Default size/tankBlue_barrel1.png",
+      "sha256": "d92812dc3035b5834194cc3a210fce34b3f53216757b66d0521a63010987fb59"
+    },
+    {
+      "file": "tankRed_barrel1.png",
+      "source_file": "PNG/Default size/tankRed_barrel1.png",
+      "sha256": "eab6b21ccd8f91b7d3bd9b67449304e05b260cbf9991c8de045c1236228386af"
+    },
+    {
+      "file": "crateMetal.png",
+      "source_file": "PNG/Default size/crateMetal.png",
+      "sha256": "d79f18e58a62b440f50861ad4e0154b2a5574e0fc85e43849de29ebfd66c2841"
+    },
+    {
+      "file": "tileSand1.png",
+      "source_file": "PNG/Default size/tileSand1.png",
+      "sha256": "63c79252d41515e08ebcdc6a7dbbae437a67536da31c25a93150231b5c573cdb"
+    },
+    {
+      "file": "explosion1.png",
+      "source_file": "PNG/Default size/explosion1.png",
+      "sha256": "02a3e560695bc1b9dca05c496847b6b69420445c063c6d02276100e973a3b3f6"
+    },
+    {
+      "file": "explosion3.png",
+      "source_file": "PNG/Default size/explosion3.png",
+      "sha256": "4a2100704ad27d0f3cb383ee76201ac15f065fdd29b658001aa046c5dc792c30"
+    },
+    {
+      "file": "explosion5.png",
+      "source_file": "PNG/Default size/explosion5.png",
+      "sha256": "e14af820c6b89ce541dc5ac89f7d164292d4e3dcdf428434886414177ec98452"
+    },
+    {
+      "file": "tankBody_huge.png",
+      "source_file": "PNG/Default size/tankBody_huge.png",
+      "bytes": 15113,
+      "crc32": "a5626af1"
+    },
+    {
+      "file": "tankBody_bigRed.png",
+      "source_file": "PNG/Default size/tankBody_bigRed.png",
+      "bytes": 14999,
+      "crc32": "ebfa2898"
+    },
+    {
+      "file": "tankBody_green.png",
+      "source_file": "PNG/Default size/tankBody_green.png",
+      "bytes": 14903,
+      "crc32": "57d04f79"
+    },
+    {
+      "file": "tankBody_dark.png",
+      "source_file": "PNG/Default size/tankBody_dark.png",
+      "bytes": 14833,
+      "crc32": "101c8199"
+    },
+    {
+      "file": "tankBlue_barrel2.png",
+      "source_file": "PNG/Default size/tankBlue_barrel2.png",
+      "bytes": 14580,
+      "crc32": "afccc270"
+    },
+    {
+      "file": "tankRed_barrel2.png",
+      "source_file": "PNG/Default size/tankRed_barrel2.png",
+      "bytes": 14581,
+      "crc32": "662bcde4"
+    },
+    {
+      "file": "tankGreen_barrel3.png",
+      "source_file": "PNG/Default size/tankGreen_barrel3.png",
+      "bytes": 14579,
+      "crc32": "c00e4cbe"
+    },
+    {
+      "file": "tankDark_barrel3.png",
+      "source_file": "PNG/Default size/tankDark_barrel3.png",
+      "bytes": 14581,
+      "crc32": "f85bd237"
+    },
+    {
+      "file": "crateWood.png",
+      "source_file": "PNG/Default size/crateWood.png",
+      "bytes": 14720,
+      "crc32": "251ec7d8"
+    },
+    {
+      "file": "tileGrass1.png",
+      "source_file": "PNG/Default size/tileGrass1.png",
+      "bytes": 15364,
+      "crc32": "c653c070"
+    },
+    {
+      "file": "tileSand2.png",
+      "source_file": "PNG/Default size/tileSand2.png",
+      "bytes": 15358,
+      "crc32": "df1b276f"
+    },
+    {
+      "file": "barricadeWood.png",
+      "source_file": "PNG/Default size/barricadeWood.png",
+      "bytes": 16170,
+      "crc32": "a86736d1"
+    }
+  ],
+  "diversity_revision": "2026-09-10"
+}

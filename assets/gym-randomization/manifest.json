@@ -1,0 +1,107 @@
+{
+  "revision": "b3a4c4c3b62da074812a9b6e90bc9f4d2d2b2ba1631da2a6c584ca8bebffdc8b",
+  "settings": {
+    "width": 320,
+    "height": 180,
+    "fps": 15,
+    "colors": 64
+  },
+  "previews": [
+    {
+      "id": "base_2d_arcade_planar-original",
+      "gif": "base_2d_arcade_planar-original.gif",
+      "source_sha256": "fabdeb17547e6312b880fd93325d1a2a96a341a17903d78457c1ef3b1b96ced3",
+      "sha256": "8fe29f302083bc0c5cede01fa5d268059d3c1f183b2c870b9353680543ddcb6a"
+    },
+    {
+      "id": "base_2d_arcade_planar-appearance",
+      "gif": "base_2d_arcade_planar-appearance.gif",
+      "source_sha256": "a83926e74ed115418328602ce1ed7118b0520831db3631808a3f435f09f4a00e",
+      "sha256": "8ffc9d05452cf820a174b29025e2f5fc02e37dd080ea6377dc995648521237e2"
+    },
+    {
+      "id": "base_2d_arcade_planar-appearance-camera",
+      "gif": "base_2d_arcade_planar-appearance-camera.gif",
+      "source_sha256": "5cb21314594e45c1ae9808727832d1ed624b45ff3ede3f9f3f5e7b9e0fe58ea3",
+      "sha256": "655052eb91a16a978b0a42e199ad4c0f714073d4dae6f56439738817bf06af59"
+    },
+    {
+      "id": "base_2d_arcade_planar-appearance-camera-scene",
+      "gif": "base_2d_arcade_planar-appearance-camera-scene.gif",
+      "source_sha256": "b3d7948e2b31c90ae677354c4284e013c03f596054114d6d880461cfddd821ee",
+      "sha256": "e2d975b40dc34fe6f09dd04c4fc00ac6993ab1653000d7939ee8b7451fd55701"
+    },
+    {
+      "id": "base_2d_platform-original",
+      "gif": "base_2d_platform-original.gif",
+      "source_sha256": "08d877ef6e1dcc06e798b2e49ce3b2571f0f25abc54874fa30f6910cf94b0994",
+      "sha256": "7a7896299b5747caf9a17ee137a21b7ce8532fe4fb1b3da7b6ec2095749c98fd"
+    },
+    {
+      "id": "base_2d_platform-appearance",
+      "gif": "base_2d_platform-appearance.gif",
+      "source_sha256": "d3bab574f026213f29e651feffc849ece5a01b0de9edbb316c9ff0e4748a1517",
+      "sha256": "a6ef3f07c22e575b86c6edf014fc603e21ae5bf46b00682a8c023200afefe814"
+    },
+    {
+      "id": "base_2d_platform-appearance-camera",
+      "gif": "base_2d_platform-appearance-camera.gif",
+      "source_sha256": "7d5570fcdfb6781b3eea55255312a7eddb32ec863764e79c2c65eb9475de1951",
+      "sha256": "d569e8a10d827121fc895191f6d402d07101197d77148a4572fabdd7b20f1e76"
+    },
+    {
+      "id": "base_2d_platform-appearance-camera-scene",
+      "gif": "base_2d_platform-appearance-camera-scene.gif",
+      "source_sha256": "e558a5f10f3ee3f3f0a8de0b4f14f9ca7b3ea319c9204ead1d70cb25aba42617",
+      "sha256": "9f2a296e5f9f68863a1483556e8b205a894cb7f7237ee11df6e2bfde4f240b60"
+    },
+    {
+      "id": "base_3d_drive_lane-original",
+      "gif": "base_3d_drive_lane-original.gif",
+      "source_sha256": "8c2c915f6cabf023ca1bd3f083bd851684a60a1cb2c491ede68ffa62a060ff75",
+      "sha256": "96c2d40c3a43fed0aa69ed75324dfcc4d02eecdf2ef11128a187eacfb857207b"
+    },
+    {
+      "id": "base_3d_drive_lane-appearance",
+      "gif": "base_3d_drive_lane-appearance.gif",
+      "source_sha256": "aca83485d0e53cdf8d7571384f2119663f7e2ab98a24efebae349f5d79470dd0",
+      "sha256": "322029c6bd5695c11616d798167b61398e40ef9e9b826cc0d51cb5a851feb506"
+    },
+    {
+      "id": "base_3d_drive_lane-appearance-camera",
+      "gif": "base_3d_drive_lane-appearance-camera.gif",
+      "source_sha256": "52e2e7445adba5dd623d8360646adc8da319e2e4e2e72c5c4ae3a519f966ccfd",
+      "sha256": "b2b7bd7b01f4ef7716c3c09f009cd8de62136258629b7dc3b462ab7e000de7cd"
+    },
+    {
+      "id": "base_3d_drive_lane-appearance-camera-scene",
+      "gif": "base_3d_drive_lane-appearance-camera-scene.gif",
+      "source_sha256": "f2e2c2e5fc52ed0f73f5458913a080f52bce4f0d6cb567dd80730467e2633e37",
+      "sha256": "b4ff5961781a7fc4752770b4aa1f1af3aeb920b4e66ed0e1640a4fd27ad7e901"
+    },
+    {
+      "id": "base_3d_navigate_chase-original",
+      "gif": "base_3d_navigate_chase-original.gif",
+      "source_sha256": "d13a85bd6161ee6048ffd35d64281ba69c819a177f43d8152fab37e4a8999db6",
+      "sha256": "ad4268145029617fa68afebc94aa6027afd6ddfb7ee5214033e6e0befb38f64b"
+    },
+    {
+      "id": "base_3d_navigate_chase-appearance",
+      "gif": "base_3d_navigate_chase-appearance.gif",
+      "source_sha256": "54971ab0e12b8e3b52b9d9bb3971ec8cab3850b26561ddfad1a6fc3ef88003cc",
+      "sha256": "d614aec6aa7915af9991c3e9d7fde2f73a968b127547ae69e1ed4a62cea700dc"
+    },
+    {
+      "id": "base_3d_navigate_chase-appearance-camera",
+      "gif": "base_3d_navigate_chase-appearance-camera.gif",
+      "source_sha256": "26f0eb9cc91c446fd2b020d5c71c61028b9ff77a736529cad2ed68cf049c52ca",
+      "sha256": "e6a41cb90d1cff3271d8d57a75d368151a7ba81dea0db458297f4e2d3887f4a4"
+    },
+    {
+      "id": "base_3d_navigate_chase-appearance-camera-scene",
+      "gif": "base_3d_navigate_chase-appearance-camera-scene.gif",
+      "source_sha256": "bc38243662f3cb67d375057eb10620c1cd06fc2e85c5e71937eb639f957ffa70",
+      "sha256": "ee80d36ea1c9cbbfee0031489b825c015a4a197674c2725edff9a0b366965a1f"
+    }
+  ]
+}

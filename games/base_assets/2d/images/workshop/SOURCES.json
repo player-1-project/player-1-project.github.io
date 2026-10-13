@@ -1,0 +1,116 @@
+{
+  "sources": [
+    {
+      "files": [
+        "ui-pixel-adventure.png"
+      ],
+      "package": "UI Pack - Pixel Adventure",
+      "url": "https://kenney.nl/assets/ui-pack-pixel-adventure",
+      "license": "CC0",
+      "source_path": "Tilesheets/Large tiles/Thin outline/tilemap_packed.png"
+    },
+    {
+      "files": [
+        "recipe-book.png"
+      ],
+      "package": "Generic Items",
+      "url": "https://kenney.nl/assets/generic-items",
+      "license": "CC0",
+      "source_path": "PNG/Colored/genericItem_color_033.png"
+    },
+    {
+      "files": [
+        "items.svg",
+        "cursor.svg",
+        "avatar.svg"
+      ],
+      "author": "Player1 original artwork",
+      "license": "Repository license",
+      "description": "Editable SVG inventory atlas, workbench avatar, and pointer."
+    }
+  ],
+  "items": [
+    "oak_log",
+    "oak_planks",
+    "stick",
+    "coal",
+    "cobblestone",
+    "iron_ingot",
+    "gold_ingot",
+    "leather",
+    "string",
+    "wheat",
+    "redstone",
+    "feather",
+    "iron_ore",
+    "cactus",
+    "potato",
+    "nether_gold_ore",
+    "clay_ball",
+    "beef",
+    "birch_wood",
+    "stone",
+    "green_dye",
+    "baked_potato",
+    "brick",
+    "cooked_beef",
+    "charcoal",
+    "smooth_stone",
+    "wooden_pickaxe",
+    "stone_pickaxe",
+    "iron_pickaxe",
+    "wooden_sword",
+    "stone_sword",
+    "iron_sword",
+    "wooden_axe",
+    "stone_axe",
+    "iron_axe",
+    "wooden_shovel",
+    "stone_shovel",
+    "torch",
+    "crafting_table",
+    "furnace",
+    "chest",
+    "shield",
+    "wooden_helmet",
+    "wooden_chestplate",
+    "wooden_leggings",
+    "wooden_boots",
+    "iron_helmet",
+    "iron_chestplate",
+    "iron_leggings",
+    "iron_boots",
+    "bread",
+    "bucket"
+  ],
+  "files": {
+    "KENNEY-UI-LICENSE.txt": {
+      "bytes": 716,
+      "sha1": "7f1238b3fab1329d763625f7af588e1d9166a3ad"
+    },
+    "items.svg": {
+      "bytes": 30955,
+      "sha1": "777fb6e12077a36eed39468cc8769b718519b720"
+    },
+    "cursor.svg": {
+      "bytes": 211,
+      "sha1": "37baafd002957c2fb808b6e1e8bc19c9c4dd0142"
+    },
+    "ui-pixel-adventure.png": {
+      "bytes": 4116,
+      "sha1": "d7a41cde997ae89cfff18571aa57c68fa4679697"
+    },
+    "recipe-book.png": {
+      "bytes": 1638,
+      "sha1": "95dd2de623de4907912687de8e44dcbc8386e622"
+    },
+    "KENNEY-ITEMS-LICENSE.txt": {
+      "bytes": 488,
+      "sha1": "b43c8bd2ba863784efff598b3a137a10131ef0ad"
+    },
+    "avatar.svg": {
+      "bytes": 1865,
+      "sha1": "8d189c5c63d6cc09a3a0b1ee1457e298a549511c"
+    }
+  }
+}

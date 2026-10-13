@@ -1,0 +1,63 @@
+{
+  "source": "https://kenney.nl/assets/nature-kit",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "file": "tree_pineRoundB.glb",
+      "source_path": "Models/GLTF format/tree_pineRoundB.glb",
+      "source_sha256": "d4b664a2ac27ffec4125d95dffebed23471595f3a86650a55bcb9ac6b7c54637",
+      "sha256": "d4b664a2ac27ffec4125d95dffebed23471595f3a86650a55bcb9ac6b7c54637",
+      "dependencies": []
+    },
+    {
+      "file": "tree_pineRoundC.glb",
+      "source_path": "Models/GLTF format/tree_pineRoundC.glb",
+      "source_sha256": "29080a4935bae6b4ab29066f22c99c58f88b23ce4e2f79b4dcbb5e76de73f69d",
+      "sha256": "29080a4935bae6b4ab29066f22c99c58f88b23ce4e2f79b4dcbb5e76de73f69d",
+      "dependencies": []
+    },
+    {
+      "file": "tree_oak.glb",
+      "source_path": "Models/GLTF format/tree_oak.glb",
+      "source_sha256": "d7fd8773674928c50c11b66d12c636d49bdcc15a8b1c7fbb98e6f63a3439a3f3",
+      "sha256": "d7fd8773674928c50c11b66d12c636d49bdcc15a8b1c7fbb98e6f63a3439a3f3",
+      "dependencies": []
+    },
+    {
+      "file": "tree_palm.glb",
+      "source_path": "Models/GLTF format/tree_palm.glb",
+      "source_sha256": "27bbb23d26ed788d84de6df2f7fab0acc3fe0ff16c7d08cdcfa1fffcb11de324",
+      "sha256": "27bbb23d26ed788d84de6df2f7fab0acc3fe0ff16c7d08cdcfa1fffcb11de324",
+      "dependencies": []
+    },
+    {
+      "file": "rock_largeB.glb",
+      "source_path": "Models/GLTF format/rock_largeB.glb",
+      "source_sha256": "caa8b025833d4dabf6d98fe2e96cf2fbd886693ac990df0db75f9d827194374b",
+      "sha256": "caa8b025833d4dabf6d98fe2e96cf2fbd886693ac990df0db75f9d827194374b",
+      "dependencies": []
+    },
+    {
+      "file": "rock_largeC.glb",
+      "source_path": "Models/GLTF format/rock_largeC.glb",
+      "source_sha256": "23aee8b727adeaf260207af3e0615dc69aa766c6d87de1d44cbc8c2711d74dd1",
+      "sha256": "23aee8b727adeaf260207af3e0615dc69aa766c6d87de1d44cbc8c2711d74dd1",
+      "dependencies": []
+    },
+    {
+      "file": "plant_bushLarge.glb",
+      "source_path": "Models/GLTF format/plant_bushLarge.glb",
+      "source_sha256": "10e1d9fbf29d96d1d1a56fb2ce25ae66537505101759229afe01ae22c6c45e02",
+      "sha256": "10e1d9fbf29d96d1d1a56fb2ce25ae66537505101759229afe01ae22c6c45e02",
+      "dependencies": []
+    },
+    {
+      "file": "plant_bushSmall.glb",
+      "source_path": "Models/GLTF format/plant_bushSmall.glb",
+      "source_sha256": "a9620a7d1fb165ae68d323676f80dbb2a9e3aafb21110d18d18d90b07026b91d",
+      "sha256": "a9620a7d1fb165ae68d323676f80dbb2a9e3aafb21110d18d18d90b07026b91d",
+      "dependencies": []
+    }
+  ],
+  "transformations": {}
+}

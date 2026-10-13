@@ -1,0 +1,11 @@
+{
+  "name": "three",
+  "npm_version": "0.185.0",
+  "three_revision": "185",
+  "source": "https://registry.npmjs.org/three/-/three-0.185.0.tgz",
+  "npm_integrity": "sha512-+yRrcRO2iZa8uzvNNl0d7cL4huhgKgBvVJ0njcTe8xFqZ6DMAFZdCKDP91SEAuj25bNAj7k1QQdf+srZywVK6w==",
+  "bundle_entry": "player1/games/player1-gym-base/base_common/three-js/three-r185-assets-entry.js",
+  "bundle_format": "iife",
+  "global_name": "THREE",
+  "addons": ["GLTFLoader", "cloneSkinned"]
+}

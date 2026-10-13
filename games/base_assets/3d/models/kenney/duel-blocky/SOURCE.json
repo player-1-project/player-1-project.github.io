@@ -1,0 +1,48 @@
+{
+  "source_url": "https://kenney.nl/assets/blocky-characters",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "file": "character-g.glb",
+      "bytes": 113376,
+      "sha256": "7e89a78c5a00fd20f703709ba1f1986dfc806745617ee44c0c10442dc649bd90",
+      "source_sha256": "e3249ffc0aaa55eba973696ba4b36a204b35a10574b373e9945b56d918e8c9fd",
+      "transforms": [
+        "Remove KHR_materials_unlit; metallic=0, roughness=0.78. Geometry, node transforms, texture and animation buffers unchanged."
+      ]
+    },
+    {
+      "file": "character-h.glb",
+      "bytes": 113380,
+      "sha256": "7fbf91ff1a609e482c1f7e4ed438ac81871940d0dca6e488b4bd8400e8b5d438",
+      "source_sha256": "f62fcf774dc6d61d64a3616803bc3a71176e1aee252020dd3ef680ef0a95d588",
+      "transforms": [
+        "Remove KHR_materials_unlit; metallic=0, roughness=0.78. Geometry, node transforms, texture and animation buffers unchanged."
+      ]
+    },
+    {
+      "file": "character-r.glb",
+      "bytes": 113380,
+      "sha256": "20ca3a8f5ea6d12e9e48f60a16d019ddb43a994af4c9aaf08036766cfecaa70b",
+      "source_sha256": "b880654e0bcf4cfda119750d1ae0842ccfb73ae22f7844ab95015122b746808a",
+      "transforms": [
+        "Remove KHR_materials_unlit; metallic=0, roughness=0.78. Geometry, node transforms, texture and animation buffers unchanged."
+      ]
+    },
+    {
+      "file": "Textures/texture-g.png",
+      "bytes": 16069,
+      "sha256": "cce3f8d545625998c27e91016672366eb84f21bbc520f8227022c23d0dd557fc"
+    },
+    {
+      "file": "Textures/texture-h.png",
+      "bytes": 16215,
+      "sha256": "7d908f3f12ac56b3debc5036dd962e2151c151f7a379cb37fe757a6ab4147536"
+    },
+    {
+      "file": "Textures/texture-r.png",
+      "bytes": 13909,
+      "sha256": "fd29fd9fc745ca7b4231d704830b7508a3ec6894c54eeacc6cff722e851d9236"
+    }
+  ]
+}

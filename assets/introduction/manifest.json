@@ -1,0 +1,37 @@
+{
+  "title": "Player-1 introduction",
+  "duration_s": 48.682,
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "source": {
+    "video": "project_page/promo-video/out/Player-1-final-1080p.mp4",
+    "sha256": "e0910890b267d110904e920b8c8b59f1583e76a8d34c54288b1b00d8b6b741db",
+    "poster_time_s": 33.3
+  },
+  "encoding": {
+    "video_codec": "h264",
+    "crf": 21,
+    "audio_codec": "aac",
+    "audio_bitrate": "128k"
+  },
+  "icon_source": "https://github.com/twbs/icons/blob/main/icons/play-fill.svg",
+  "media": {
+    "video": {
+      "file": "overview.mp4",
+      "sha256": "de0d738cd839f7be94c9f08be7a32f620c658cf4cfbef241eed5eb5d41c1af79"
+    },
+    "poster": {
+      "file": "poster.webp",
+      "sha256": "40d9a427901059b2f97af54df651be99e8a4dc6ba04cc538f81e365877f2501f"
+    },
+    "play_icon": {
+      "file": "play.svg",
+      "sha256": "ae8baa815c8aa11eed60d41beb8e62b9a51cab620d3264707979e118ca576498"
+    },
+    "icon_license": {
+      "file": "icons-LICENSE.txt",
+      "sha256": "0fb3e11bd57e896c5a512afd64864d28a37de45d19835016c87ca1ad19ead969"
+    }
+  }
+}

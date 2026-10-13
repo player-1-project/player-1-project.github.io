@@ -1,0 +1,37 @@
+{
+  "source_url": "https://kenney.nl/assets/animated-characters-protagonists",
+  "version": "1.1; conversion gamegym-protagonists-1",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "file": "criminalMaleA.glb",
+      "bytes": 771136,
+      "sha256": "3f2f23a46386830773246b669f8c3f3c8c46ccb6fc3cc813a4e6ef903dc571f0"
+    },
+    {
+      "file": "skaterMaleA.glb",
+      "bytes": 782296,
+      "sha256": "6940fc41f9fd4ca7d9c22f13fe811a3401e940efca0930a8862b299e7168d040"
+    },
+    {
+      "file": "cyborgFemaleA.glb",
+      "bytes": 797660,
+      "sha256": "ee371b9588872a875ad16a89a96fa1de8cba0932882fd34dc1c171d05e6ce77f",
+      "prepared_source_file": "outputs/visual-upgrade-implementation-20260910/prepared-assets/protagonists/cyborgFemaleA.glb"
+    },
+    {
+      "file": "skaterFemaleA.glb",
+      "bytes": 776952,
+      "sha256": "4ba0430a628b121f271e14c34aa362bdc96b4912c48c357be60b76ff3a4b791c",
+      "prepared_source_file": "outputs/visual-upgrade-implementation-20260910/prepared-assets/protagonists/skaterFemaleA.glb"
+    }
+  ],
+  "diversity_additions": {
+    "source": "outputs/visual-upgrade-implementation-20260910/prepared-assets/protagonists",
+    "models": {
+      "cyborgFemaleA.glb": "ee371b9588872a875ad16a89a96fa1de8cba0932882fd34dc1c171d05e6ce77f",
+      "skaterFemaleA.glb": "4ba0430a628b121f271e14c34aa362bdc96b4912c48c357be60b76ff3a4b791c"
+    },
+    "license": "CC0; same Kenney Animated Characters Protagonists source and conversion pipeline"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "source": "https://kenney.nl/assets/nature-kit",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "file": "tree_oak.glb",
+      "source_path": "Models/GLTF format/tree_oak.glb",
+      "source_sha256": "d7fd8773674928c50c11b66d12c636d49bdcc15a8b1c7fbb98e6f63a3439a3f3",
+      "sha256": "2c82b3044991c928c42870260109f06b6da0071fbac4dd08b8e4c62ab7d8decf",
+      "dependencies": []
+    },
+    {
+      "file": "tree_pineRoundA.glb",
+      "source_path": "Models/GLTF format/tree_pineRoundA.glb",
+      "source_sha256": "7dc9711f31585eafdcb965d0649c30af5e19f2def1955f7a915081d30759ef8e",
+      "sha256": "09c8fbed14708a029bd10c6ccbe5ac9905f8b0968db314d2b81ad0cb21cf0e60",
+      "dependencies": []
+    },
+    {
+      "file": "rock_largeA.glb",
+      "source_path": "Models/GLTF format/rock_largeA.glb",
+      "source_sha256": "6dd15390fd96501dcd1454765a17ba61dbbd8d47705dfe5149c8dd92b353ce25",
+      "sha256": "5d0847eff27840ab76d996929b63281dfdccbfbf082450902229e627753a709e",
+      "dependencies": []
+    },
+    {
+      "file": "plant_bushSmall.glb",
+      "source_path": "Models/GLTF format/plant_bushSmall.glb",
+      "source_sha256": "a9620a7d1fb165ae68d323676f80dbb2a9e3aafb21110d18d18d90b07026b91d",
+      "sha256": "8f60dfb8e74187c727f4b22f2977ea76860a0029b5312642120e74ef9ca4fcb6",
+      "dependencies": []
+    },
+    {
+      "file": "grass.glb",
+      "source_path": "Models/GLTF format/grass.glb",
+      "source_sha256": "260e41d3e5f2472492ed7b475c5b92a30b13ce2bad408535b5ff50574d4575e7",
+      "sha256": "f90b806c33639ad798b61fc3be4f9025396380d0af6a812fad075c852446a478",
+      "dependencies": []
+    }
+  ],
+  "transformations": {
+    "all": "Calibrate nature surfaces to a foliage/bark palette in linear RGB, metallic=0, roughness=0.93. Geometry is unchanged."
+  }
+}

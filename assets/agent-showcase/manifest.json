@@ -1,0 +1,711 @@
+{
+  "revision": "514da2025742272278c161c045aa46f990060a6b670195efa424c6762ac6e653",
+  "driving_candidate": 2,
+  "source_package": "demo-10-clips-20261013",
+  "source_delivered_video_sha256": "dfbed3abb65165d5f4720a0f10d520f5a67b1f33f5d78aa77a6ed555b98f5534",
+  "source_runs": [
+    "20261013T084241Z-600aa10e",
+    "20261013T092147Z-418ab477",
+    "20261013T101038Z-1f76a571"
+  ],
+  "editing": "One contiguous interval of the delivered edited timeline per chapter.",
+  "recording_context": "The supplied package removes inference freezes and some transitions. These six chapters come from recorded attempts A, C, and D.",
+  "text_presentation": "Stage-level examples with editorially refined display text; original reasoning and actions remain preserved separately.",
+  "source_needed": [
+    {
+      "purpose": "A longer model-controlled road-driving sequence.",
+      "note": "Full source C is now present; its usable model road-driving excerpts remain short."
+    }
+  ],
+  "duration_s": 21.766666666666666,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "stages": [
+    {
+      "id": "navigate",
+      "label": "Navigate",
+      "description": "Navigate the street toward the parked vehicles.",
+      "video": "stage-01.mp4",
+      "poster": "stage-01.jpg",
+      "frames": 90,
+      "duration_s": 3.0,
+      "playback_rate": 0.9555555555555556,
+      "delivered_interval_s": [
+        0.0,
+        2.8666666666666667
+      ],
+      "delivered_frame_interval": [
+        0,
+        86
+      ],
+      "delivered_clip_ids": [
+        "01-walking"
+      ],
+      "source_key": "A",
+      "source_run": "20261013T084241Z-600aa10e",
+      "source_video_sha256": "e40b907c4b2004838a90335239748661819dfcddaa42425544f4aec7a9a56cc0",
+      "source_time_envelope_s": [
+        110.0,
+        121.26666666666667
+      ],
+      "source_retained_ranges": [
+        {
+          "start_frame": 3300,
+          "end_frame_exclusive": 3309
+        },
+        {
+          "start_frame": 3344,
+          "end_frame_exclusive": 3355
+        },
+        {
+          "start_frame": 3391,
+          "end_frame_exclusive": 3403
+        },
+        {
+          "start_frame": 3437,
+          "end_frame_exclusive": 3448
+        },
+        {
+          "start_frame": 3488,
+          "end_frame_exclusive": 3498
+        },
+        {
+          "start_frame": 3533,
+          "end_frame_exclusive": 3544
+        },
+        {
+          "start_frame": 3581,
+          "end_frame_exclusive": 3591
+        },
+        {
+          "start_frame": 3626,
+          "end_frame_exclusive": 3638
+        }
+      ],
+      "original_steps": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "text_step": 67,
+      "thinking": "The character is currently running down the middle of the street, aiming toward the right side where the sidewalk and parked cars are located. Holding forward and right will steer the character toward the right curb where vehicles typically park.",
+      "action": "Keys: hold(\"d\", \"w\")",
+      "original_action": {
+        "name": "control",
+        "arguments": {
+          "key_hold": [
+            "d",
+            "w"
+          ]
+        }
+      },
+      "video_sha256": "3948d1650cc8cd792e86f657de5da892bd2f49127d9f6e4422632d83035aabca",
+      "validation": {
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30/1",
+        "duration": "3.000000",
+        "nb_read_frames": "90"
+      },
+      "text_clip": "01-walking",
+      "original_thinking": "The character is currently running down the middle of the street, aiming toward the right side where the sidewalk and parked cars are located. Holding forward and right will steer the character toward the right curb where vehicles typically park.",
+      "thinking_edited": false,
+      "start_s": 0.0,
+      "end_s": 3.0,
+      "steps": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "id": "approach",
+      "label": "Approach",
+      "description": "Approach the white car and line up with its driver's door.",
+      "video": "stage-02.mp4",
+      "poster": "stage-02.jpg",
+      "frames": 93,
+      "duration_s": 3.1,
+      "playback_rate": 1.0,
+      "delivered_interval_s": [
+        2.8666666666666667,
+        5.966666666666667
+      ],
+      "delivered_frame_interval": [
+        86,
+        179
+      ],
+      "delivered_clip_ids": [
+        "02-locate-white-car",
+        "03-approach-white-car"
+      ],
+      "source_key": "A",
+      "source_run": "20261013T084241Z-600aa10e",
+      "source_video_sha256": "e40b907c4b2004838a90335239748661819dfcddaa42425544f4aec7a9a56cc0",
+      "source_time_envelope_s": [
+        122.633333333,
+        138.5
+      ],
+      "source_retained_ranges": [
+        {
+          "start_frame": 3679,
+          "end_frame_exclusive": 3689
+        },
+        {
+          "start_frame": 3726,
+          "end_frame_exclusive": 3737
+        },
+        {
+          "start_frame": 3773,
+          "end_frame_exclusive": 3784
+        },
+        {
+          "start_frame": 3819,
+          "end_frame_exclusive": 3829
+        },
+        {
+          "start_frame": 3863,
+          "end_frame_exclusive": 3873
+        },
+        {
+          "start_frame": 3908,
+          "end_frame_exclusive": 3918
+        },
+        {
+          "start_frame": 3954,
+          "end_frame_exclusive": 3964
+        },
+        {
+          "start_frame": 3998,
+          "end_frame_exclusive": 4009
+        },
+        {
+          "start_frame": 4145,
+          "end_frame_exclusive": 4155
+        }
+      ],
+      "original_steps": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        82
+      ],
+      "text_step": 79,
+      "thinking": "The character is currently running along the sidewalk and needs to turn right toward the parked white van positioned along the street. Holding forward and right movement keys will guide the character into position to access the van.",
+      "action": "Keys: hold(\"d\", \"w\")",
+      "original_action": {
+        "name": "control",
+        "arguments": {
+          "key_hold": [
+            "d",
+            "w"
+          ]
+        }
+      },
+      "video_sha256": "d4c48649ac974a245901b6756bf73c1d9059432b96dbf298a39a242d3e6b157d",
+      "validation": {
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30/1",
+        "duration": "3.100000",
+        "nb_read_frames": "93"
+      },
+      "text_clip": "03-approach-white-car",
+      "original_thinking": "The character is currently running along the sidewalk and needs to turn right toward the parked white van positioned along the street. Holding forward and right movement keys will guide the character into position to access the van.",
+      "thinking_edited": false,
+      "start_s": 3.0,
+      "end_s": 6.1,
+      "steps": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        82
+      ]
+    },
+    {
+      "id": "enter",
+      "label": "Enter vehicle",
+      "description": "Open the driver's door, get in, and pull away.",
+      "video": "stage-03.mp4",
+      "poster": "stage-03.jpg",
+      "frames": 90,
+      "duration_s": 3.0,
+      "playback_rate": 1.0,
+      "delivered_interval_s": [
+        5.966666666666667,
+        8.966666666666667
+      ],
+      "delivered_frame_interval": [
+        179,
+        269
+      ],
+      "delivered_clip_ids": [
+        "04-enter-white-car",
+        "05-white-car-start"
+      ],
+      "source_key": "A",
+      "source_run": "20261013T084241Z-600aa10e",
+      "source_video_sha256": "e40b907c4b2004838a90335239748661819dfcddaa42425544f4aec7a9a56cc0",
+      "source_time_envelope_s": [
+        139.733333333,
+        152.3
+      ],
+      "source_retained_ranges": [
+        {
+          "start_frame": 4192,
+          "end_frame_exclusive": 4202
+        },
+        {
+          "start_frame": 4239,
+          "end_frame_exclusive": 4249
+        },
+        {
+          "start_frame": 4284,
+          "end_frame_exclusive": 4296
+        },
+        {
+          "start_frame": 4332,
+          "end_frame_exclusive": 4343
+        },
+        {
+          "start_frame": 4379,
+          "end_frame_exclusive": 4391
+        },
+        {
+          "start_frame": 4425,
+          "end_frame_exclusive": 4435
+        },
+        {
+          "start_frame": 4471,
+          "end_frame_exclusive": 4482
+        },
+        {
+          "start_frame": 4518,
+          "end_frame_exclusive": 4529
+        },
+        {
+          "start_frame": 4566,
+          "end_frame_exclusive": 4569
+        }
+      ],
+      "original_steps": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "text_step": 85,
+      "thinking": "The character is stepping into the driver's seat with the door already open. Holding forward movement combined with the entry key maintains forward momentum into the vehicle to complete the entry.",
+      "action": "Keys: hold(\"e\", \"w\")",
+      "original_action": {
+        "name": "control",
+        "arguments": {
+          "key_hold": [
+            "e",
+            "w"
+          ]
+        }
+      },
+      "video_sha256": "36043b7cbe1bd51a386bb59193d9a4132d3c7ccb621a4f6c803bf80c4ee650bd",
+      "validation": {
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30/1",
+        "duration": "3.000000",
+        "nb_read_frames": "90"
+      },
+      "text_clip": "04-enter-white-car",
+      "original_thinking": "The character is stepping into the driver's seat with the door already open. Holding forward movement combined with the entry key maintains forward momentum into the vehicle to complete the entry.",
+      "thinking_edited": false,
+      "start_s": 6.1,
+      "end_s": 9.1,
+      "steps": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ]
+    },
+    {
+      "id": "drive",
+      "label": "Drive",
+      "description": "Drive forward along the street toward the intersection.",
+      "video": "stage-04.mp4",
+      "poster": "stage-04.jpg",
+      "frames": 120,
+      "duration_s": 4.0,
+      "playback_rate": 1,
+      "delivered_interval_s": [
+        7,
+        11
+      ],
+      "delivered_frame_interval": [
+        210,
+        330
+      ],
+      "delivered_clip_ids": [
+        "C-assisted-road-drive-58-84"
+      ],
+      "source_key": "C",
+      "source_run": "20261013T092147Z-418ab477",
+      "source_video_sha256": "627d0b1d3108c9c6c3274f342d145b48927595d6b8f663fd67792c77e0a49766",
+      "source_time_envelope_s": [
+        65.0,
+        69.0
+      ],
+      "source_retained_ranges": [
+        {
+          "start_frame": 1950,
+          "end_frame_exclusive": 2070
+        }
+      ],
+      "original_steps": [],
+      "text_step": 12,
+      "thinking": "The car is currently positioned between the large white van on the left and the curb on the right. Holding forward drive will propel the car past the van and down the open lane.",
+      "action": "Keys: hold(\"w\")",
+      "original_action": {
+        "name": "control",
+        "arguments": {
+          "key_hold": [
+            "a",
+            "w"
+          ]
+        }
+      },
+      "video_sha256": "7187406fbbb2ae7b5cb8192fe4137a91e64b0c3421cd16ead00bf86c3a34a452",
+      "validation": {
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30/1",
+        "duration": "4.000000",
+        "nb_read_frames": "120"
+      },
+      "text_clip": "07-white-car-straight",
+      "original_thinking": "The car is currently positioned between the large white van on the left and the curb on the right. Holding forward drive will propel the car past the van and down the open lane, while steering left keeps the vehicle centered in the lane and avoids drifting too close to the right sidewalk.",
+      "thinking_edited": true,
+      "control": "external_manual_assistance",
+      "candidate_label": "驾驶 C · 4s",
+      "source_package": "demo-driving-increment-20261014",
+      "preserved_dark_camera_transition": false,
+      "model_text_is_illustrative": true,
+      "model_text_source": {
+        "source_run": "20261013T092147Z-418ab477",
+        "clip_id": "07-white-car-straight",
+        "step": 12
+      },
+      "action_edited": true,
+      "start_s": 9.1,
+      "end_s": 13.1,
+      "steps": []
+    },
+    {
+      "id": "reach-target",
+      "label": "Reach target",
+      "description": "Leave the white car and walk toward the camera.",
+      "video": "stage-05.mp4",
+      "poster": "stage-05.jpg",
+      "frames": 113,
+      "duration_s": 3.7666666666666666,
+      "playback_rate": 1.0,
+      "delivered_interval_s": [
+        14.466666666666667,
+        18.233333333333334
+      ],
+      "delivered_frame_interval": [
+        434,
+        547
+      ],
+      "delivered_clip_ids": [
+        "09-exit-and-walk"
+      ],
+      "source_key": "D",
+      "source_run": "20261013T101038Z-1f76a571",
+      "source_video_sha256": "5f148b51d3d14f1597871ca59a851a5c4cb6e5b2b41e649658a9f5177fdba62d",
+      "source_time_envelope_s": [
+        4.5,
+        22.266666666666666
+      ],
+      "source_retained_ranges": [
+        {
+          "start_frame": 135,
+          "end_frame_exclusive": 136
+        },
+        {
+          "start_frame": 171,
+          "end_frame_exclusive": 182
+        },
+        {
+          "start_frame": 230,
+          "end_frame_exclusive": 242
+        },
+        {
+          "start_frame": 290,
+          "end_frame_exclusive": 301
+        },
+        {
+          "start_frame": 341,
+          "end_frame_exclusive": 352
+        },
+        {
+          "start_frame": 395,
+          "end_frame_exclusive": 406
+        },
+        {
+          "start_frame": 449,
+          "end_frame_exclusive": 460
+        },
+        {
+          "start_frame": 495,
+          "end_frame_exclusive": 506
+        },
+        {
+          "start_frame": 552,
+          "end_frame_exclusive": 563
+        },
+        {
+          "start_frame": 608,
+          "end_frame_exclusive": 619
+        },
+        {
+          "start_frame": 656,
+          "end_frame_exclusive": 668
+        }
+      ],
+      "original_steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "text_step": 4,
+      "thinking": "The character has exited the vehicle and is currently running or walking toward the left side of the screen to get clear of the car. Holding forward and left movement keys maintains this forward-left progression across the street, while shifting the view left and slightly down keeps the character centered in the field of view.",
+      "action": "Mouse: move(\"relative\", -394, 135)\nKeys: hold(\"a\", \"w\")",
+      "original_action": {
+        "name": "control",
+        "arguments": {
+          "key_hold": [
+            "a",
+            "w"
+          ],
+          "mouse_move": {
+            "mode": "relative",
+            "dx": -394,
+            "dy": 135,
+            "protocol": "normalized_viewport_delta_v1"
+          }
+        }
+      },
+      "video_sha256": "f71e4f14b8e405d540929e58f8eccdffe754448545db739f3492b8a1067ef366",
+      "validation": {
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30/1",
+        "duration": "3.766667",
+        "nb_read_frames": "113"
+      },
+      "text_clip": "09-exit-and-walk",
+      "original_thinking": "The character has exited the vehicle and is currently running or walking toward the left side of the screen to get clear of the car. Holding forward and left movement keys maintains this forward-left progression across the street, while shifting the view left and slightly down keeps the character centered in the field of view.",
+      "thinking_edited": false,
+      "control": "model",
+      "start_s": 13.1,
+      "end_s": 16.866666666666667,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "interact",
+      "label": "Interact",
+      "description": "Take over the camera and look around the intersection.",
+      "video": "stage-06.mp4",
+      "poster": "stage-06.jpg",
+      "frames": 147,
+      "duration_s": 4.9,
+      "playback_rate": 1,
+      "delivered_interval_s": [
+        0,
+        4.9
+      ],
+      "delivered_frame_interval": [
+        0,
+        147
+      ],
+      "delivered_clip_ids": [
+        "D-transition-active-44-68"
+      ],
+      "source_key": "D",
+      "source_run": "20261013T101038Z-1f76a571",
+      "source_video_sha256": "5f148b51d3d14f1597871ca59a851a5c4cb6e5b2b41e649658a9f5177fdba62d",
+      "source_time_envelope_s": [
+        44.36666666666667,
+        66.73333333333333
+      ],
+      "source_retained_ranges": [
+        {
+          "start_frame": 1331,
+          "end_frame_exclusive": 1343
+        },
+        {
+          "start_frame": 1384,
+          "end_frame_exclusive": 1395
+        },
+        {
+          "start_frame": 1440,
+          "end_frame_exclusive": 1450
+        },
+        {
+          "start_frame": 1486,
+          "end_frame_exclusive": 1496
+        },
+        {
+          "start_frame": 1541,
+          "end_frame_exclusive": 1553
+        },
+        {
+          "start_frame": 1600,
+          "end_frame_exclusive": 1613
+        },
+        {
+          "start_frame": 1657,
+          "end_frame_exclusive": 1670
+        },
+        {
+          "start_frame": 1716,
+          "end_frame_exclusive": 1726
+        },
+        {
+          "start_frame": 1770,
+          "end_frame_exclusive": 1782
+        },
+        {
+          "start_frame": 1826,
+          "end_frame_exclusive": 1837
+        },
+        {
+          "start_frame": 1879,
+          "end_frame_exclusive": 1890
+        },
+        {
+          "start_frame": 1936,
+          "end_frame_exclusive": 1947
+        },
+        {
+          "start_frame": 1991,
+          "end_frame_exclusive": 2002
+        }
+      ],
+      "original_steps": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "text_step": 41,
+      "thinking": "The current camera view is pointed downward at the street corner and sidewalk. To locate and track the character ahead, the camera needs to pitch upward and swing right toward the character's position while holding forward movement and the camera switch key.",
+      "action": "Mouse: move(\"relative\", 310, -249)\nKeys: hold(\"w\", \"x\")",
+      "original_action": {
+        "name": "control",
+        "arguments": {
+          "key_hold": [
+            "w",
+            "x"
+          ],
+          "mouse_move": {
+            "mode": "relative",
+            "dx": 310,
+            "dy": -249,
+            "protocol": "normalized_viewport_delta_v1"
+          }
+        }
+      },
+      "video_sha256": "aaeb3746cd61f6a6226345279106455952761b65e1db16ec7d3c512d5ce40056",
+      "validation": {
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30/1",
+        "duration": "4.900000",
+        "nb_read_frames": "147"
+      },
+      "text_clip": "10-camera-interaction",
+      "original_thinking": "The current camera view is pointed downward at the street corner and sidewalk. To locate and track the character ahead, the camera needs to pitch upward and swing right toward the character's position while holding forward movement and the camera switch key.",
+      "thinking_edited": false,
+      "source_package": "demo-driving-increment-20261014",
+      "control": "model",
+      "preserved_dark_camera_transition": true,
+      "start_s": 16.866666666666667,
+      "end_s": 21.766666666666666,
+      "steps": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    }
+  ]
+}
