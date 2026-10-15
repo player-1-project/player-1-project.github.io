@@ -71,7 +71,7 @@ export function setupReplay() {
           render();
         });
       }
-      if (!video.paused) animation = requestAnimationFrame(tick);
+      if (!video.paused && animation === null) animation = requestAnimationFrame(tick);
     } else {
       pausePlayback();
     }

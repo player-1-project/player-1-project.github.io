@@ -284,6 +284,17 @@
     "thumbnail": "frames/gameworld-17/step-0001.webp"
   },
   {
+    "id": "gameworld-02",
+    "benchmark": "gameworld",
+    "title": "Monkey Mart",
+    "task": "20_01",
+    "category": "20_monkey-mart",
+    "result": "Unsuccessful",
+    "totalSteps": 400,
+    "sampledFrames": 15,
+    "thumbnail": "frames/gameworld-02/step-0026.webp"
+  },
+  {
     "id": "gameworld-05",
     "benchmark": "gameworld",
     "title": "Ns Shaft",
@@ -315,17 +326,6 @@
     "totalSteps": 184,
     "sampledFrames": 24,
     "thumbnail": "frames/gameworld-04/step-0001.webp"
-  },
-  {
-    "id": "gameworld-02",
-    "benchmark": "gameworld",
-    "title": "Tetris",
-    "task": "29_04",
-    "category": "29_tetris",
-    "result": "Success",
-    "totalSteps": 223,
-    "sampledFrames": 24,
-    "thumbnail": "frames/gameworld-02/step-0001.webp"
   },
   {
     "id": "gameworld-01",

@@ -31,7 +31,7 @@ if (!id || !/^(minecraft|vizdoom|gameworld)-\d{2}$/.test(id)) {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     trace = await response.json();
     document.title = `${trace.title} · Player-1 trajectory`;
-    elements['trace-benchmark'].textContent = `${names[trace.benchmark] || trace.benchmark} · ${trace.model} · CHECKPOINT ${trace.checkpoint}`;
+    elements['trace-benchmark'].textContent = names[trace.benchmark] || trace.benchmark;
     elements['trace-title'].textContent = trace.title;
     elements['trace-task'].textContent = trace.task;
     elements['trace-result'].textContent = trace.result;

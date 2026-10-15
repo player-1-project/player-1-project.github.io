@@ -1,5 +1,5 @@
-import { setupReplay } from './replay.js?v=02779bc85bdb';
-import { setupShowcase } from './showcase.js?v=2e9c1ba24621';
+import { setupReplay } from './replay.js?v=aea1be82a13f';
+import { setupShowcase } from './showcase.js?v=5e3ba32f4635';
 import { setupResults } from './results.js?v=353f1d975dbf';
 import { setupRandomization } from './randomization.js?v=8a9320501592';
 

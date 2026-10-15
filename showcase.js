@@ -5,11 +5,23 @@ export function setupShowcase(replay) {
   const playButton = document.getElementById('play-introduction');
   const dialogs = [...document.querySelectorAll('dialog')];
   let selectedView = null;
-  let inView = true;
+  let inView = false;
   let started = false;
   let playAttempt = null;
+  let autoplayPending = false;
+  let countdown = null;
+  const autoplayDelay = 3000;
+  playButton.style.setProperty('--intro-countdown-duration', `${autoplayDelay}ms`);
+
+  function cancelCountdown() {
+    clearTimeout(countdown);
+    countdown = null;
+    playButton.classList.remove('is-counting-down');
+    playButton.removeAttribute('aria-label');
+  }
 
   function pauseIntroduction() {
+    cancelCountdown();
     playAttempt = null;
     playButton.disabled = false;
     intro.pause();
@@ -35,7 +47,9 @@ export function setupShowcase(replay) {
       intro.src = intro.dataset.src;
     }
     if (view !== 'introduction') pauseIntroduction();
+    autoplayPending = view === 'introduction';
     replay.setVisible(view === 'gameplay');
+    syncIntroduction();
   }
 
   for (const tab of tabs) {
@@ -52,39 +66,62 @@ export function setupShowcase(replay) {
     });
   }
 
-  playButton.addEventListener('click', () => {
+  async function playIntroduction(automatic = false) {
     if (!canPlayIntroduction() || playAttempt) return;
+    cancelCountdown();
+    autoplayPending = false;
     const attempt = {};
     playAttempt = attempt;
     playButton.disabled = true;
     intro.controls = true;
-    Promise.resolve(intro.play()).then(() => {
+    if (intro.error) intro.load();
+    try {
+      try {
+        await intro.play();
+      } catch (error) {
+        if (!automatic || error.name !== 'NotAllowedError' || playAttempt !== attempt || !canPlayIntroduction()) {
+          throw error;
+        }
+        intro.muted = true;
+        await intro.play();
+      }
+    } catch {
       if (playAttempt !== attempt) return;
-      playAttempt = null;
-      playButton.disabled = false;
-    }, () => {
-      if (playAttempt !== attempt) return;
-      playAttempt = null;
-      playButton.disabled = false;
       intro.controls = started;
-    });
-  });
+      playButton.hidden = false;
+    } finally {
+      if (playAttempt !== attempt) return;
+      playAttempt = null;
+      playButton.disabled = false;
+    }
+  }
+  playButton.addEventListener('click', () => playIntroduction());
   intro.addEventListener('playing', () => {
     if (!canPlayIntroduction()) {
       pauseIntroduction();
       return;
     }
     started = true;
+    autoplayPending = false;
+    cancelCountdown();
     intro.controls = true;
     playButton.hidden = true;
   });
   intro.addEventListener('error', () => {
+    autoplayPending = false;
     pauseIntroduction();
     playButton.hidden = false;
   });
 
   function syncIntroduction() {
-    if (!canPlayIntroduction()) pauseIntroduction();
+    if (!canPlayIntroduction()) {
+      pauseIntroduction();
+    } else if (autoplayPending && countdown === null && !playAttempt) {
+      playButton.hidden = false;
+      playButton.classList.add('is-counting-down');
+      playButton.setAttribute('aria-label', 'Watch introduction. Automatically plays in 3 seconds.');
+      countdown = setTimeout(() => playIntroduction(true), autoplayDelay);
+    }
   }
   new IntersectionObserver(([entry]) => {
     inView = entry.isIntersecting;
