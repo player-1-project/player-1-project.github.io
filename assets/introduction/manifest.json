@@ -1,12 +1,12 @@
 {
   "title": "Player-1 introduction",
-  "duration_s": 48.7,
+  "duration_s": 48.704,
   "width": 1280,
   "height": 720,
   "fps": 30,
   "source": {
     "video": "project_page/promo-video/out/Player-1-final-1080p.mp4",
-    "sha256": "551e9e514d5f659e147c48e457e9f40ffc5bedbc7273173a33a4d02ae7b2beed",
+    "sha256": "906d45d041f4e6252617f43d5bdbd6fc2c4eaf99209f7d461cc312740f5ff4e2",
     "poster_time_s": 0.0
   },
   "encoding": {
@@ -19,7 +19,7 @@
   "media": {
     "video": {
       "file": "overview.mp4",
-      "sha256": "53bab191e8d2f95c879706b9d812d0bf1936804bcd9e8a12ecbd537266818049"
+      "sha256": "b1e175421cac6cde4c4e51bd741ad1b89974098d738f4ddc615a2a493d8d1317"
     },
     "poster": {
       "file": "poster.webp",
