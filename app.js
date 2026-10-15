@@ -1,7 +1,7 @@
 import { setupReplay } from './replay.js?v=aea1be82a13f';
 import { setupShowcase } from './showcase.js?v=5e3ba32f4635';
 import { setupResults } from './results.js?v=353f1d975dbf';
-import { setupRandomization } from './randomization.js?v=8a9320501592';
+import { setupRandomization } from './randomization.js?v=6887f449d192';
 
 const $ = (id) => document.getElementById(id);
 let catalog = [];
