@@ -90,11 +90,10 @@
 .hero-body>:not(.hero-mosaic){position:relative;z-index:2}
 .hero-body .button:not(.dark){background:rgba(255,255,255,.94);transition:background-color .18s ease}
 .hero-body .button:not(.dark):hover{background:var(--soft)}
-.hero .links{align-items:flex-start}
+.hero .links{align-items:flex-start;flex-wrap:wrap}
+.release-note{margin-top:14px;font-size:var(--ui-size);line-height:1.6}
 .hero-body .button-github{border-width:2px;padding:12px 17px}
 @media(max-width:760px){.hero-body .button-github{padding:11px 13px}}
-.hero-body .button.resource-pending{position:relative;flex:none;justify-content:flex-start;text-align:left;background:var(--soft);border-color:var(--line);color:var(--muted);opacity:1;cursor:default}
-.resource-note{position:absolute;right:0;bottom:3px;left:0;padding-left:inherit;padding-right:inherit;color:var(--muted);font-size:10px;line-height:1;text-align:left;white-space:nowrap}
 @media(max-width:760px){.hero-mosaic{grid-template-columns:repeat(5,minmax(0,1fr));grid-template-rows:repeat(12,minmax(0,1fr))}}
 
 
