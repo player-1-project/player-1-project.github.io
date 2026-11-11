@@ -91,9 +91,9 @@
 .hero-body .button:not(.dark){background:rgba(255,255,255,.94);transition:background-color .18s ease}
 .hero-body .button:not(.dark):hover{background:var(--soft)}
 .hero .links{align-items:flex-start;flex-wrap:wrap}
-.release-note{margin-top:14px;font-size:var(--ui-size);line-height:1.6}
-.hero-body .button-github{border-width:2px;padding:12px 17px}
-@media(max-width:760px){.hero-body .button-github{padding:11px 13px}}
+.release-note{margin-top:14px;font-size:var(--ui-size);line-height:1.6;color:rgb(161,37,22)}
+.hero-body .button-resource{border-width:2px;padding:12px 17px;font-weight:700}
+@media(max-width:760px){.hero-body .button-resource{padding:11px 13px}}
 @media(max-width:760px){.hero-mosaic{grid-template-columns:repeat(5,minmax(0,1fr));grid-template-rows:repeat(12,minmax(0,1fr))}}
 
 

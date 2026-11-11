@@ -9,5 +9,5 @@ The site sources are maintained in `game-gym/project_page/`. This repository con
 Released resources:
 
 - [Player-1-Data](https://huggingface.co/datasets/yyyang/Player-1-Data)
-- [Player-1-9B](https://huggingface.co/yyyang/Player-1-9B) and [Player-1-35B-A3B](https://huggingface.co/yyyang/Player-1-35B-A3B)
+- [Player-1 models: 9B and 35B-A3B](https://huggingface.co/collections/yyyang/player-1)
 - [Code: Gym, training, and evaluation](https://github.com/TencentARC/Player-1)
